@@ -1,0 +1,615 @@
+Jul 16 13:48:35 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Jul 16 14:17:01 ubuntu CRON[24697]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 16 14:17:01 ubuntu CRON[24697]: pam_unix(cron:session): session closed for user root
+Jul 16 15:17:01 ubuntu CRON[24715]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 16 15:17:01 ubuntu CRON[24715]: pam_unix(cron:session): session closed for user root
+Jul 16 16:11:42 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/bin/df -h
+Jul 16 16:11:42 ubuntu sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 16 16:11:42 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Jul 16 16:17:01 ubuntu CRON[24739]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 16 16:17:01 ubuntu CRON[24739]: pam_unix(cron:session): session closed for user root
+Jul 16 17:17:01 ubuntu CRON[24760]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 16 17:17:01 ubuntu CRON[24760]: pam_unix(cron:session): session closed for user root
+Jul 16 17:25:22 ubuntu sshd[23679]: Received disconnect from 192.168.3.1 port 56702:11: disconnected by user
+Jul 16 17:25:22 ubuntu sshd[23679]: Disconnected from 192.168.3.1 port 56702
+Jul 16 17:25:22 ubuntu sshd[23645]: pam_unix(sshd:session): session closed for user ubuntu
+Jul 16 18:17:01 ubuntu CRON[24788]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 16 18:17:01 ubuntu CRON[24788]: pam_unix(cron:session): session closed for user root
+Jul 16 18:24:44 ubuntu login[965]: pam_unix(login:session): session closed for user ubuntu
+Jul 16 18:24:44 ubuntu systemd-logind[833]: Removed session 1.
+Jul 16 18:24:53 ubuntu login[24795]: pam_lastlog(login:session): file /var/log/lastlog created
+Jul 16 18:24:53 ubuntu login[24795]: pam_unix(login:session): session opened for user ubuntu by LOGIN(uid=0)
+Jul 16 18:24:53 ubuntu systemd-logind[833]: New session 776 of user ubuntu.
+Jul 16 18:25:13 ubuntu login[24795]: pam_unix(login:session): session closed for user ubuntu
+Jul 16 18:25:13 ubuntu systemd-logind[833]: Removed session 776.
+Jul 16 18:25:17 ubuntu login[24885]: pam_unix(login:auth): check pass; user unknown
+Jul 16 18:25:17 ubuntu login[24885]: pam_unix(login:auth): authentication failure; logname=LOGIN uid=0 euid=0 tty=/dev/tty1 ruser= rhost=
+Jul 16 18:25:20 ubuntu login[24885]: FAILED LOGIN (1) on '/dev/tty1' FOR 'UNKNOWN', Authentication failure
+Jul 16 18:32:51 ubuntu sshd[24897]: Accepted password for ubuntu from 192.168.3.1 port 58513 ssh2
+Jul 16 18:32:51 ubuntu sshd[24897]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Jul 16 18:32:51 ubuntu systemd-logind[833]: New session 777 of user ubuntu.
+Jul 16 18:36:57 ubuntu sshd[24931]: Received disconnect from 192.168.3.1 port 58513:11: disconnected by user
+Jul 16 18:36:57 ubuntu sshd[24931]: Disconnected from 192.168.3.1 port 58513
+Jul 16 18:36:57 ubuntu sshd[24897]: pam_unix(sshd:session): session closed for user ubuntu
+Jul 16 18:36:57 ubuntu systemd-logind[833]: Removed session 777.
+Jul 16 18:52:51 ubuntu login[24890]: pam_unix(login:session): session opened for user ubuntu by LOGIN(uid=0)
+Jul 16 18:52:51 ubuntu systemd-logind[833]: New session 778 of user ubuntu.
+Jul 16 18:53:31 ubuntu login[24890]: pam_unix(login:session): session closed for user ubuntu
+Jul 16 18:53:31 ubuntu systemd-logind[833]: Removed session 778.
+Jul 16 19:17:01 ubuntu CRON[25035]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 16 19:17:01 ubuntu CRON[25035]: pam_unix(cron:session): session closed for user root
+Jul 16 20:17:01 ubuntu CRON[25054]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 16 20:17:01 ubuntu CRON[25054]: pam_unix(cron:session): session closed for user root
+Jul 16 21:17:01 ubuntu CRON[25073]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 16 21:17:01 ubuntu CRON[25073]: pam_unix(cron:session): session closed for user root
+Jul 16 21:17:29 ubuntu sshd[25076]: Accepted password for ubuntu from 192.168.3.1 port 59528 ssh2
+Jul 16 21:17:29 ubuntu sshd[25076]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Jul 16 21:17:29 ubuntu systemd-logind[833]: New session 782 of user ubuntu.
+Jul 16 21:17:35 ubuntu sudo:   ubuntu : TTY=pts/1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/bin/ps aux
+Jul 16 21:17:35 ubuntu sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 16 21:17:35 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Jul 16 21:17:40 ubuntu sudo:   ubuntu : TTY=pts/1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/bin/ps aux
+Jul 16 21:17:40 ubuntu sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 16 21:17:40 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Jul 16 21:17:48 ubuntu sudo:   ubuntu : TTY=pts/1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/bin/kill 24013
+Jul 16 21:17:48 ubuntu sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 16 21:17:48 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Jul 16 21:17:48 ubuntu systemd-logind[833]: Removed session 760.
+Jul 16 21:17:48 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Jul 16 21:17:50 ubuntu sudo:   ubuntu : TTY=pts/1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/bin/kill 24014
+Jul 16 21:17:50 ubuntu sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 16 21:17:50 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Jul 16 21:17:55 ubuntu sudo:   ubuntu : TTY=pts/1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/bin/ps aux
+Jul 16 21:17:55 ubuntu sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 16 21:17:55 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Jul 16 21:24:55 ubuntu sshd[25219]: Accepted password for ubuntu from 192.168.3.1 port 59591 ssh2
+Jul 16 21:24:55 ubuntu sshd[25219]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Jul 16 21:24:55 ubuntu systemd-logind[833]: New session 783 of user ubuntu.
+Jul 16 21:34:01 ubuntu CRON[25270]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 16 21:34:01 ubuntu CRON[25270]: pam_unix(cron:session): session closed for user root
+Jul 16 22:13:00 ubuntu sshd[25130]: Received disconnect from 192.168.3.1 port 59528:11: disconnected by user
+Jul 16 22:13:00 ubuntu sshd[25130]: Disconnected from 192.168.3.1 port 59528
+Jul 16 22:13:00 ubuntu sshd[25076]: pam_unix(sshd:session): session closed for user ubuntu
+Jul 16 22:13:00 ubuntu systemd-logind[833]: Removed session 782.
+Jul 16 22:17:01 ubuntu CRON[25288]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 16 22:17:01 ubuntu CRON[25288]: pam_unix(cron:session): session closed for user root
+Jul 16 23:17:01 ubuntu CRON[25309]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 16 23:17:01 ubuntu CRON[25309]: pam_unix(cron:session): session closed for user root
+Jul 17 00:17:01 ubuntu CRON[25678]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 00:17:01 ubuntu CRON[25678]: pam_unix(cron:session): session closed for user root
+Jul 17 01:17:01 ubuntu CRON[25702]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 01:17:01 ubuntu CRON[25702]: pam_unix(cron:session): session closed for user root
+Jul 17 02:17:01 ubuntu CRON[25727]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 02:17:01 ubuntu CRON[25727]: pam_unix(cron:session): session closed for user root
+Jul 17 03:17:01 ubuntu CRON[25752]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 03:17:01 ubuntu CRON[25752]: pam_unix(cron:session): session closed for user root
+Jul 17 04:17:01 ubuntu CRON[25778]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 04:17:01 ubuntu CRON[25778]: pam_unix(cron:session): session closed for user root
+Jul 17 05:17:01 ubuntu CRON[25803]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 05:17:01 ubuntu CRON[25803]: pam_unix(cron:session): session closed for user root
+Jul 17 06:17:01 ubuntu CRON[25827]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 06:17:01 ubuntu CRON[25827]: pam_unix(cron:session): session closed for user root
+Jul 17 06:25:01 ubuntu CRON[25888]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 06:25:03 ubuntu CRON[25888]: pam_unix(cron:session): session closed for user root
+Jul 17 07:17:01 ubuntu CRON[26081]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 07:17:01 ubuntu CRON[26081]: pam_unix(cron:session): session closed for user root
+Jul 17 08:17:01 ubuntu CRON[26107]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 08:17:01 ubuntu CRON[26107]: pam_unix(cron:session): session closed for user root
+Jul 17 09:17:01 ubuntu CRON[26132]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 09:17:01 ubuntu CRON[26132]: pam_unix(cron:session): session closed for user root
+Jul 17 10:17:01 ubuntu CRON[26157]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 10:17:01 ubuntu CRON[26157]: pam_unix(cron:session): session closed for user root
+Jul 17 11:17:01 ubuntu CRON[26180]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 11:17:01 ubuntu CRON[26180]: pam_unix(cron:session): session closed for user root
+Jul 17 12:01:01 ubuntu sshd[26199]: Accepted password for ubuntu from 192.168.3.1 port 35709 ssh2
+Jul 17 12:01:01 ubuntu sshd[26199]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Jul 17 12:01:01 ubuntu systemd-logind[833]: New session 800 of user ubuntu.
+Jul 17 12:17:01 ubuntu CRON[26275]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 12:17:01 ubuntu CRON[26275]: pam_unix(cron:session): session closed for user root
+Jul 17 13:03:18 ubuntu sshd[26256]: Received disconnect from 192.168.3.1 port 35709:11: disconnected by user
+Jul 17 13:03:18 ubuntu sshd[26256]: Disconnected from 192.168.3.1 port 35709
+Jul 17 13:03:18 ubuntu sshd[26199]: pam_unix(sshd:session): session closed for user ubuntu
+Jul 17 13:03:18 ubuntu sudo: pam_unix(sudo:auth): auth could not identify password for [ubuntu]
+Jul 17 13:03:18 ubuntu systemd-logind[833]: Removed session 800.
+Jul 17 13:17:01 ubuntu CRON[26303]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 13:17:01 ubuntu CRON[26303]: pam_unix(cron:session): session closed for user root
+Jul 17 14:17:01 ubuntu CRON[26333]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 14:17:01 ubuntu CRON[26333]: pam_unix(cron:session): session closed for user root
+Jul 17 14:33:41 ubuntu sshd[26342]: Invalid user aimlsec from 192.168.3.1
+Jul 17 14:33:41 ubuntu sshd[26342]: input_userauth_request: invalid user aimlsec [preauth]
+Jul 17 14:33:43 ubuntu sshd[26342]: pam_unix(sshd:auth): check pass; user unknown
+Jul 17 14:33:43 ubuntu sshd[26342]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.3.1
+Jul 17 14:33:46 ubuntu sshd[26342]: Failed password for invalid user aimlsec from 192.168.3.1 port 36642 ssh2
+Jul 17 14:33:49 ubuntu sshd[26342]: Connection closed by 192.168.3.1 port 36642 [preauth]
+Jul 17 14:33:58 ubuntu sshd[26344]: Accepted password for ubuntu from 192.168.3.1 port 36646 ssh2
+Jul 17 14:33:58 ubuntu sshd[26344]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Jul 17 14:33:58 ubuntu systemd-logind[833]: New session 804 of user ubuntu.
+Jul 17 14:34:04 ubuntu sudo:   ubuntu : TTY=pts/1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/docker ps
+Jul 17 14:34:04 ubuntu sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 17 14:34:04 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Jul 17 14:34:27 ubuntu sudo:   ubuntu : TTY=pts/1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/bin/ps aux
+Jul 17 14:34:27 ubuntu sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 17 14:34:27 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Jul 17 14:34:55 ubuntu sudo:   ubuntu : TTY=pts/1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/sbin/tcpdump -i enp0s3 -w enp0s3-pvt-wednesday.pcap
+Jul 17 14:34:55 ubuntu sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 17 14:35:04 ubuntu sshd[26400]: Received disconnect from 192.168.3.1 port 36646:11: disconnected by user
+Jul 17 14:35:04 ubuntu sshd[26400]: Disconnected from 192.168.3.1 port 36646
+Jul 17 14:35:04 ubuntu sshd[26344]: pam_unix(sshd:session): session closed for user ubuntu
+Jul 17 14:35:10 ubuntu sshd[26430]: Accepted password for ubuntu from 192.168.3.1 port 36653 ssh2
+Jul 17 14:35:10 ubuntu sshd[26430]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Jul 17 14:35:10 ubuntu systemd-logind[833]: New session 805 of user ubuntu.
+Jul 17 14:35:18 ubuntu sshd[26463]: Received disconnect from 192.168.3.1 port 36653:11: disconnected by user
+Jul 17 14:35:18 ubuntu sshd[26463]: Disconnected from 192.168.3.1 port 36653
+Jul 17 14:35:18 ubuntu sshd[26430]: pam_unix(sshd:session): session closed for user ubuntu
+Jul 17 14:35:18 ubuntu systemd-logind[833]: Removed session 805.
+Jul 17 15:17:01 ubuntu CRON[26497]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 15:17:01 ubuntu CRON[26497]: pam_unix(cron:session): session closed for user root
+Jul 17 15:36:23 ubuntu sshd[26510]: Invalid user aimlsec from 192.168.3.1
+Jul 17 15:36:23 ubuntu sshd[26510]: input_userauth_request: invalid user aimlsec [preauth]
+Jul 17 15:36:26 ubuntu sshd[26510]: pam_unix(sshd:auth): check pass; user unknown
+Jul 17 15:36:26 ubuntu sshd[26510]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.3.1
+Jul 17 15:36:28 ubuntu sshd[26510]: Failed password for invalid user aimlsec from 192.168.3.1 port 36958 ssh2
+Jul 17 15:36:42 ubuntu sshd[26512]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.3.1  user=ubuntu
+Jul 17 15:36:44 ubuntu sshd[26512]: Failed password for ubuntu from 192.168.3.1 port 36960 ssh2
+Jul 17 15:36:46 ubuntu sshd[26512]: Accepted password for ubuntu from 192.168.3.1 port 36960 ssh2
+Jul 17 15:36:46 ubuntu sshd[26512]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Jul 17 15:36:46 ubuntu systemd-logind[833]: New session 807 of user ubuntu.
+Jul 17 15:36:59 ubuntu sshd[26568]: Received disconnect from 192.168.3.1 port 36960:11: disconnected by user
+Jul 17 15:36:59 ubuntu sshd[26568]: Disconnected from 192.168.3.1 port 36960
+Jul 17 15:36:59 ubuntu sshd[26512]: pam_unix(sshd:session): session closed for user ubuntu
+Jul 17 15:36:59 ubuntu systemd-logind[833]: Removed session 807.
+Jul 17 16:17:01 ubuntu CRON[26599]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 16:17:01 ubuntu CRON[26599]: pam_unix(cron:session): session closed for user root
+Jul 17 17:17:01 ubuntu CRON[26625]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 17:17:01 ubuntu CRON[26625]: pam_unix(cron:session): session closed for user root
+Jul 17 18:17:01 ubuntu CRON[26718]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 18:17:01 ubuntu CRON[26718]: pam_unix(cron:session): session closed for user root
+Jul 17 19:17:01 ubuntu CRON[26747]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 19:17:01 ubuntu CRON[26747]: pam_unix(cron:session): session closed for user root
+Jul 17 20:17:01 ubuntu CRON[26772]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 20:17:01 ubuntu CRON[26772]: pam_unix(cron:session): session closed for user root
+Jul 17 21:17:01 ubuntu CRON[26796]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 21:17:01 ubuntu CRON[26796]: pam_unix(cron:session): session closed for user root
+Jul 17 21:34:01 ubuntu CRON[26806]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 21:34:01 ubuntu CRON[26806]: pam_unix(cron:session): session closed for user root
+Jul 17 22:06:46 ubuntu sshd[26820]: Accepted password for ubuntu from 192.168.3.1 port 39520 ssh2
+Jul 17 22:06:46 ubuntu sshd[26820]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Jul 17 22:06:46 ubuntu systemd-logind[833]: New session 815 of user ubuntu.
+Jul 17 22:09:30 ubuntu sshd[26876]: Received disconnect from 192.168.3.1 port 39520:11: disconnected by user
+Jul 17 22:09:30 ubuntu sshd[26876]: Disconnected from 192.168.3.1 port 39520
+Jul 17 22:09:30 ubuntu sshd[26820]: pam_unix(sshd:session): session closed for user ubuntu
+Jul 17 22:09:30 ubuntu systemd-logind[833]: Removed session 815.
+Jul 17 22:17:01 ubuntu CRON[26912]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 22:17:01 ubuntu CRON[26912]: pam_unix(cron:session): session closed for user root
+Jul 17 22:28:55 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/dpkg -i freesweep.deb
+Jul 17 22:28:55 ubuntu sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 17 22:28:55 ubuntu sudo:     root : TTY=pts/0 ; PWD=/ ; USER=root ; COMMAND=/bin/chmod 2755 /usr/games/freesweep_scores
+Jul 17 22:28:55 ubuntu sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 17 22:28:55 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Jul 17 22:28:55 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Jul 17 22:42:13 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/dpkg -i freesweep.deb.1
+Jul 17 22:42:13 ubuntu sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 17 22:42:13 ubuntu sudo:     root : TTY=pts/0 ; PWD=/ ; USER=root ; COMMAND=/bin/chmod 2755 /usr/games/freesweep_scores
+Jul 17 22:42:13 ubuntu sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 17 22:42:13 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Jul 17 22:42:14 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Jul 17 22:46:14 ubuntu sshd[26994]: Accepted password for ubuntu from 192.168.3.1 port 39939 ssh2
+Jul 17 22:46:14 ubuntu sshd[26994]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Jul 17 22:46:14 ubuntu systemd-logind[833]: New session 817 of user ubuntu.
+Jul 17 22:47:13 ubuntu sudo:   ubuntu : TTY=pts/2 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/bin/kill 26425
+Jul 17 22:47:13 ubuntu sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 17 22:47:13 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Jul 17 22:47:13 ubuntu systemd-logind[833]: Removed session 804.
+Jul 17 22:47:13 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Jul 17 22:47:18 ubuntu sudo:   ubuntu : TTY=pts/2 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/bin/kill 26426
+Jul 17 22:47:18 ubuntu sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 17 22:47:18 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Jul 17 22:49:02 ubuntu sshd[27028]: Received disconnect from 192.168.3.1 port 39939:11: disconnected by user
+Jul 17 22:49:02 ubuntu sshd[27028]: Disconnected from 192.168.3.1 port 39939
+Jul 17 22:49:02 ubuntu sshd[26994]: pam_unix(sshd:session): session closed for user ubuntu
+Jul 17 22:49:02 ubuntu systemd-logind[833]: Removed session 817.
+Jul 17 22:49:08 ubuntu sshd[27097]: Connection closed by 192.168.3.1 port 39977 [preauth]
+Jul 17 23:17:01 ubuntu CRON[27111]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 23:17:01 ubuntu CRON[27111]: pam_unix(cron:session): session closed for user root
+Jul 18 00:17:01 ubuntu CRON[27140]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 00:17:01 ubuntu CRON[27140]: pam_unix(cron:session): session closed for user root
+Jul 18 01:17:01 ubuntu CRON[27170]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 01:17:01 ubuntu CRON[27170]: pam_unix(cron:session): session closed for user root
+Jul 18 02:17:02 ubuntu CRON[27197]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 02:17:02 ubuntu CRON[27197]: pam_unix(cron:session): session closed for user root
+Jul 18 03:17:01 ubuntu CRON[27225]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 03:17:01 ubuntu CRON[27225]: pam_unix(cron:session): session closed for user root
+Jul 18 04:17:01 ubuntu CRON[27607]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 04:17:01 ubuntu CRON[27607]: pam_unix(cron:session): session closed for user root
+Jul 18 05:17:01 ubuntu CRON[27636]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 05:17:01 ubuntu CRON[27636]: pam_unix(cron:session): session closed for user root
+Jul 18 06:17:01 ubuntu CRON[27667]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 06:17:01 ubuntu CRON[27667]: pam_unix(cron:session): session closed for user root
+Jul 18 06:25:01 ubuntu CRON[27672]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 06:25:04 ubuntu CRON[27672]: pam_unix(cron:session): session closed for user root
+Jul 18 07:17:02 ubuntu CRON[27984]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 07:17:02 ubuntu CRON[27984]: pam_unix(cron:session): session closed for user root
+Jul 18 08:17:01 ubuntu CRON[28013]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 08:17:01 ubuntu CRON[28013]: pam_unix(cron:session): session closed for user root
+Jul 18 09:17:01 ubuntu CRON[28085]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 09:17:01 ubuntu CRON[28085]: pam_unix(cron:session): session closed for user root
+Jul 18 10:17:01 ubuntu CRON[28114]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 10:17:01 ubuntu CRON[28114]: pam_unix(cron:session): session closed for user root
+Jul 18 11:17:01 ubuntu CRON[28143]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 11:17:01 ubuntu CRON[28143]: pam_unix(cron:session): session closed for user root
+Jul 18 11:30:07 ubuntu sshd[28152]: Accepted password for ubuntu from 192.168.3.1 port 48115 ssh2
+Jul 18 11:30:07 ubuntu sshd[28152]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Jul 18 11:30:07 ubuntu systemd-logind[833]: New session 832 of user ubuntu.
+Jul 18 11:31:02 ubuntu sudo:   ubuntu : TTY=pts/1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/bin/kill 28219
+Jul 18 11:31:02 ubuntu sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 18 11:31:02 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Jul 18 11:31:08 ubuntu sudo:   ubuntu : TTY=pts/1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/bin/kill 28220
+Jul 18 11:31:08 ubuntu sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 18 11:31:08 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Jul 18 11:31:10 ubuntu sudo:   ubuntu : TTY=pts/1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/bin/kill 28224
+Jul 18 11:31:10 ubuntu sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 18 11:31:10 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Jul 18 11:31:21 ubuntu sudo:   ubuntu : TTY=pts/1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/sbin/tcpdump -i enp0s3 -w enp0s3-pvt-thursday.pcap
+Jul 18 11:31:21 ubuntu sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 18 12:17:01 ubuntu CRON[28254]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 12:17:01 ubuntu CRON[28254]: pam_unix(cron:session): session closed for user root
+Jul 18 12:47:16 ubuntu sshd[28271]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.3.29  user=ubuntu
+Jul 18 12:47:18 ubuntu sshd[28271]: Failed password for ubuntu from 192.168.3.29 port 53642 ssh2
+Jul 18 12:47:21 ubuntu sshd[28271]: Failed password for ubuntu from 192.168.3.29 port 53642 ssh2
+Jul 18 12:47:24 ubuntu sshd[28271]: Failed password for ubuntu from 192.168.3.29 port 53642 ssh2
+Jul 18 12:47:24 ubuntu sshd[28271]: Connection closed by 192.168.3.29 port 53642 [preauth]
+Jul 18 12:47:24 ubuntu sshd[28271]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.3.29  user=ubuntu
+Jul 18 13:09:15 ubuntu sudo:   ubuntu : TTY=pts/1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/docker ps
+Jul 18 13:09:15 ubuntu sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 18 13:09:15 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Jul 18 13:17:01 ubuntu CRON[28305]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 13:17:01 ubuntu CRON[28305]: pam_unix(cron:session): session closed for user root
+Jul 18 14:14:32 ubuntu sshd[28334]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.3.34  user=root
+Jul 18 14:14:34 ubuntu sshd[28334]: Failed password for root from 192.168.3.34 port 58698 ssh2
+Jul 18 14:14:43 ubuntu sshd[28336]: Accepted password for ubuntu from 192.168.3.34 port 58700 ssh2
+Jul 18 14:14:43 ubuntu sshd[28336]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Jul 18 14:14:43 ubuntu systemd-logind[833]: New session 835 of user ubuntu.
+Jul 18 14:16:36 ubuntu sshd[28390]: Received disconnect from 192.168.3.34 port 58700:11: disconnected by user
+Jul 18 14:16:36 ubuntu sshd[28390]: Disconnected from 192.168.3.34 port 58700
+Jul 18 14:16:36 ubuntu sshd[28336]: pam_unix(sshd:session): session closed for user ubuntu
+Jul 18 14:16:36 ubuntu systemd-logind[833]: Removed session 835.
+Jul 18 14:17:01 ubuntu CRON[28399]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 14:17:01 ubuntu CRON[28399]: pam_unix(cron:session): session closed for user root
+Jul 18 14:34:36 ubuntu sudo:   ubuntu : TTY=pts/1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/tail -f /var/log/syslog
+Jul 18 14:34:36 ubuntu sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 18 14:35:10 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Jul 18 14:35:36 ubuntu sudo:   ubuntu : TTY=pts/1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/sbin/service filebeat status
+Jul 18 14:35:36 ubuntu sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 18 14:35:38 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Jul 18 14:36:35 ubuntu sudo:   ubuntu : TTY=pts/1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/sbin/tcpdump -i enp0s3
+Jul 18 14:36:35 ubuntu sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 18 14:36:51 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Jul 18 14:36:57 ubuntu sudo:   ubuntu : TTY=pts/1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/sbin/tcpdump -i enp0s3
+Jul 18 14:36:57 ubuntu sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 18 14:37:17 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Jul 18 14:38:51 ubuntu sshd[28206]: Received disconnect from 192.168.3.1 port 48115:11: disconnected by user
+Jul 18 14:38:51 ubuntu sshd[28206]: Disconnected from 192.168.3.1 port 48115
+Jul 18 14:38:51 ubuntu sshd[28152]: pam_unix(sshd:session): session closed for user ubuntu
+Jul 18 14:38:51 ubuntu sudo: pam_unix(sudo:auth): auth could not identify password for [ubuntu]
+Jul 18 14:38:51 ubuntu sudo: message repeated 2 times: [ pam_unix(sudo:auth): auth could not identify password for [ubuntu]]
+Jul 18 15:17:01 ubuntu CRON[28642]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 15:17:01 ubuntu CRON[28642]: pam_unix(cron:session): session closed for user root
+Jul 18 15:38:34 ubuntu sshd[28653]: Accepted password for ubuntu from 192.168.3.1 port 49164 ssh2
+Jul 18 15:38:34 ubuntu sshd[28653]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Jul 18 15:38:34 ubuntu systemd-logind[833]: New session 838 of user ubuntu.
+Jul 18 15:39:14 ubuntu sshd[28707]: Received disconnect from 192.168.3.1 port 49164:11: disconnected by user
+Jul 18 15:39:14 ubuntu sshd[28707]: Disconnected from 192.168.3.1 port 49164
+Jul 18 15:39:14 ubuntu sshd[28653]: pam_unix(sshd:session): session closed for user ubuntu
+Jul 18 15:39:14 ubuntu systemd-logind[833]: Removed session 838.
+Jul 18 15:57:43 ubuntu sshd[28733]: Accepted password for ubuntu from 192.168.3.1 port 49248 ssh2
+Jul 18 15:57:43 ubuntu sshd[28733]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Jul 18 15:57:43 ubuntu systemd-logind[833]: New session 839 of user ubuntu.
+Jul 18 16:00:09 ubuntu sudo:   ubuntu : TTY=pts/2 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/sbin/tcpdump -i enp0s3
+Jul 18 16:00:09 ubuntu sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 18 16:00:13 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Jul 18 16:01:38 ubuntu sudo:   ubuntu : TTY=pts/2 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/sbin/iptables -s 192.168.3.1 -j DROP
+Jul 18 16:01:38 ubuntu sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 18 16:01:38 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Jul 18 16:01:57 ubuntu sudo:   ubuntu : TTY=pts/2 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/sbin/iptables -A FORWARD i- enp0s3 -s 192.168.3.1 -j DROP
+Jul 18 16:01:57 ubuntu sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 18 16:01:57 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Jul 18 16:02:34 ubuntu sudo:   ubuntu : TTY=pts/2 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/sbin/iptables -I INPUT -s 192.168.3.1 -j DROP
+Jul 18 16:02:34 ubuntu sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 18 16:02:34 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Jul 18 16:11:20 ubuntu sshd[28793]: Accepted password for ubuntu from 192.168.3.29 port 50446 ssh2
+Jul 18 16:11:20 ubuntu sshd[28793]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Jul 18 16:11:20 ubuntu systemd-logind[833]: New session 840 of user ubuntu.
+Jul 18 16:11:37 ubuntu sudo:   ubuntu : TTY=pts/3 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/sbin/tcpdump -i enp0s3
+Jul 18 16:11:37 ubuntu sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 18 16:11:54 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Jul 18 16:11:58 ubuntu sshd[28825]: Received disconnect from 192.168.3.29 port 50446:11: disconnected by user
+Jul 18 16:11:58 ubuntu sshd[28825]: Disconnected from 192.168.3.29 port 50446
+Jul 18 16:11:58 ubuntu sshd[28793]: pam_unix(sshd:session): session closed for user ubuntu
+Jul 18 16:11:58 ubuntu systemd-logind[833]: Removed session 840.
+Jul 18 16:17:01 ubuntu CRON[28848]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 16:17:01 ubuntu CRON[28848]: pam_unix(cron:session): session closed for user root
+Jul 18 16:18:05 ubuntu sshd[25219]: pam_unix(sshd:session): session closed for user ubuntu
+Jul 18 16:18:05 ubuntu sshd[28733]: pam_unix(sshd:session): session closed for user ubuntu
+Jul 18 16:18:05 ubuntu systemd-logind[833]: Removed session 839.
+Jul 18 17:17:01 ubuntu CRON[28874]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 17:17:01 ubuntu CRON[28874]: pam_unix(cron:session): session closed for user root
+Jul 18 17:29:24 ubuntu sshd[28880]: Accepted password for ubuntu from 192.168.3.29 port 59816 ssh2
+Jul 18 17:29:24 ubuntu sshd[28880]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Jul 18 17:29:24 ubuntu systemd-logind[833]: New session 843 of user ubuntu.
+Jul 18 17:29:32 ubuntu sshd[28934]: Received disconnect from 192.168.3.29 port 59816:11: disconnected by user
+Jul 18 17:29:32 ubuntu sshd[28934]: Disconnected from 192.168.3.29 port 59816
+Jul 18 17:29:32 ubuntu sshd[28880]: pam_unix(sshd:session): session closed for user ubuntu
+Jul 18 17:29:32 ubuntu systemd-logind[833]: Removed session 843.
+Jul 18 18:17:01 ubuntu CRON[28970]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 18:17:01 ubuntu CRON[28970]: pam_unix(cron:session): session closed for user root
+Jul 18 18:19:06 ubuntu sshd[28973]: Accepted password for ubuntu from 192.168.3.34 port 58792 ssh2
+Jul 18 18:19:06 ubuntu sshd[28973]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Jul 18 18:19:06 ubuntu systemd-logind[833]: New session 845 of user ubuntu.
+Jul 18 18:19:31 ubuntu sudo:   ubuntu : TTY=pts/2 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt-get install smbclient
+Jul 18 18:19:31 ubuntu sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 18 18:23:23 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Jul 18 18:23:46 ubuntu sudo:   ubuntu : TTY=pts/2 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/smbclient -L 192.168.3.29
+Jul 18 18:23:46 ubuntu sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 18 18:23:50 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Jul 18 18:23:57 ubuntu sudo:   ubuntu : TTY=pts/2 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/smbclient -L 192.168.3.30
+Jul 18 18:23:57 ubuntu sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 18 18:24:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Jul 18 18:27:24 ubuntu sudo:   ubuntu : TTY=pts/2 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/sbin/iptables -L
+Jul 18 18:27:24 ubuntu sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 18 18:27:24 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Jul 18 19:17:01 ubuntu CRON[30129]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 19:17:01 ubuntu CRON[30129]: pam_unix(cron:session): session closed for user root
+Jul 18 20:17:01 ubuntu CRON[30226]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 20:17:01 ubuntu CRON[30226]: pam_unix(cron:session): session closed for user root
+Jul 18 21:15:55 ubuntu sshd[30248]: Accepted password for ubuntu from 192.168.3.29 port 60100 ssh2
+Jul 18 21:15:55 ubuntu sshd[30248]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Jul 18 21:15:55 ubuntu systemd-logind[833]: New session 848 of user ubuntu.
+Jul 18 21:16:09 ubuntu sudo:   ubuntu : TTY=pts/3 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/sbin/iptables -L -n
+Jul 18 21:16:09 ubuntu sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 18 21:16:09 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Jul 18 21:17:01 ubuntu CRON[30320]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 21:17:01 ubuntu CRON[30320]: pam_unix(cron:session): session closed for user root
+Jul 18 21:17:37 ubuntu sudo:   ubuntu : TTY=pts/3 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/sbin/iptables -L INPUT -v
+Jul 18 21:17:37 ubuntu sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 18 21:17:37 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Jul 18 21:18:29 ubuntu sudo:   ubuntu : TTY=pts/3 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/sbin/iptables -D INPUT 1
+Jul 18 21:18:29 ubuntu sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 18 21:18:29 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Jul 18 21:19:46 ubuntu sshd[30327]: Accepted password for ubuntu from 192.168.3.1 port 51303 ssh2
+Jul 18 21:19:46 ubuntu sshd[30327]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Jul 18 21:19:46 ubuntu systemd-logind[833]: New session 850 of user ubuntu.
+Jul 18 21:21:11 ubuntu sshd[30360]: Received disconnect from 192.168.3.1 port 51303:11: disconnected by user
+Jul 18 21:21:11 ubuntu sshd[30360]: Disconnected from 192.168.3.1 port 51303
+Jul 18 21:21:11 ubuntu sshd[30327]: pam_unix(sshd:session): session closed for user ubuntu
+Jul 18 21:21:11 ubuntu systemd-logind[833]: Removed session 850.
+Jul 18 21:26:48 ubuntu sshd[30379]: Accepted password for ubuntu from 192.168.3.1 port 51351 ssh2
+Jul 18 21:26:48 ubuntu sshd[30379]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Jul 18 21:26:48 ubuntu systemd-logind[833]: New session 851 of user ubuntu.
+Jul 18 21:27:06 ubuntu sudo:   ubuntu : TTY=pts/4 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/bin/netstat -tulpn
+Jul 18 21:27:06 ubuntu sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 18 21:27:06 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Jul 18 21:27:34 ubuntu sshd[30427]: Accepted password for ubuntu from 192.168.3.1 port 51358 ssh2
+Jul 18 21:27:34 ubuntu sshd[30427]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Jul 18 21:27:34 ubuntu systemd-logind[833]: New session 852 of user ubuntu.
+Jul 18 21:27:35 ubuntu sshd[30411]: Received disconnect from 192.168.3.1 port 51351:11: disconnected by user
+Jul 18 21:27:35 ubuntu sshd[30411]: Disconnected from 192.168.3.1 port 51351
+Jul 18 21:27:35 ubuntu sshd[30379]: pam_unix(sshd:session): session closed for user ubuntu
+Jul 18 21:27:35 ubuntu systemd-logind[833]: Removed session 851.
+Jul 18 21:27:50 ubuntu sudo:   ubuntu : TTY=pts/5 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/bin/netstat -tulpn
+Jul 18 21:27:50 ubuntu sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 18 21:27:50 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Jul 18 21:27:53 ubuntu sudo:   ubuntu : TTY=pts/5 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/bin/netstat -tulpn
+Jul 18 21:27:53 ubuntu sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 18 21:27:53 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Jul 18 21:28:09 ubuntu sudo:   ubuntu : TTY=pts/5 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/bin/netstat -tulpn
+Jul 18 21:28:09 ubuntu sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 18 21:28:09 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Jul 18 21:32:10 ubuntu sshd[30765]: Accepted password for ubuntu from 192.168.3.1 port 51392 ssh2
+Jul 18 21:32:10 ubuntu sshd[30765]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Jul 18 21:32:10 ubuntu systemd-logind[833]: New session 853 of user ubuntu.
+Jul 18 21:32:26 ubuntu sudo:   ubuntu : TTY=pts/4 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/bin/ps aux
+Jul 18 21:32:26 ubuntu sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 18 21:32:26 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Jul 18 21:33:05 ubuntu sudo:   ubuntu : TTY=pts/4 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/bin/ps aux
+Jul 18 21:33:06 ubuntu sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 18 21:33:06 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Jul 18 21:33:18 ubuntu sudo:   ubuntu : TTY=pts/4 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/bin/kill 9 28233
+Jul 18 21:33:18 ubuntu sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 18 21:33:18 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Jul 18 21:33:18 ubuntu systemd-logind[833]: Removed session 832.
+Jul 18 21:33:18 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Jul 18 21:33:21 ubuntu sudo:   ubuntu : TTY=pts/4 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/bin/ps aux
+Jul 18 21:33:21 ubuntu sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 18 21:33:21 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Jul 18 21:34:01 ubuntu CRON[30825]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 21:34:01 ubuntu CRON[30825]: pam_unix(cron:session): session closed for user root
+Jul 18 21:45:06 ubuntu sshd[30459]: Received disconnect from 192.168.3.1 port 51358:11: disconnected by user
+Jul 18 21:45:06 ubuntu sshd[30459]: Disconnected from 192.168.3.1 port 51358
+Jul 18 21:45:06 ubuntu sshd[30427]: pam_unix(sshd:session): session closed for user ubuntu
+Jul 18 21:45:06 ubuntu systemd-logind[833]: Removed session 852.
+Jul 18 21:45:47 ubuntu sshd[31102]: Invalid user hacker from 192.168.3.29
+Jul 18 21:45:47 ubuntu sshd[31102]: input_userauth_request: invalid user hacker [preauth]
+Jul 18 21:45:52 ubuntu sshd[31102]: pam_unix(sshd:auth): check pass; user unknown
+Jul 18 21:45:52 ubuntu sshd[31102]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.3.29
+Jul 18 21:45:53 ubuntu sshd[31102]: Failed password for invalid user hacker from 192.168.3.29 port 36634 ssh2
+Jul 18 21:45:58 ubuntu sshd[31102]: pam_unix(sshd:auth): check pass; user unknown
+Jul 18 21:46:01 ubuntu sshd[31102]: Failed password for invalid user hacker from 192.168.3.29 port 36634 ssh2
+Jul 18 21:46:04 ubuntu sshd[31102]: pam_unix(sshd:auth): check pass; user unknown
+Jul 18 21:46:06 ubuntu sshd[31102]: Failed password for invalid user hacker from 192.168.3.29 port 36634 ssh2
+Jul 18 21:46:06 ubuntu sshd[31102]: Connection closed by 192.168.3.29 port 36634 [preauth]
+Jul 18 21:46:06 ubuntu sshd[31102]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.3.29
+Jul 18 21:48:42 ubuntu sshd[31866]: Accepted password for ubuntu from 192.168.3.29 port 38514 ssh2
+Jul 18 21:48:42 ubuntu sshd[31866]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Jul 18 21:48:42 ubuntu systemd-logind[833]: New session 855 of user ubuntu.
+Jul 18 21:51:51 ubuntu sshd[31898]: Received disconnect from 192.168.3.29 port 38514:11: disconnected by user
+Jul 18 21:51:51 ubuntu sshd[31898]: Disconnected from 192.168.3.29 port 38514
+Jul 18 21:51:51 ubuntu sshd[31866]: pam_unix(sshd:session): session closed for user ubuntu
+Jul 18 21:51:51 ubuntu systemd-logind[833]: Removed session 855.
+Jul 18 22:01:47 ubuntu sudo:   ubuntu : TTY=pts/4 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/tail -f syslog
+Jul 18 22:01:47 ubuntu sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 18 22:01:47 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Jul 18 22:02:01 ubuntu sudo:   ubuntu : TTY=pts/4 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/tail -f /var/log/syslog
+Jul 18 22:02:01 ubuntu sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 18 22:02:26 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Jul 18 22:06:15 ubuntu sshd[30302]: Received disconnect from 192.168.3.29 port 60100:11: disconnected by user
+Jul 18 22:06:15 ubuntu sshd[30302]: Disconnected from 192.168.3.29 port 60100
+Jul 18 22:06:15 ubuntu sshd[30248]: pam_unix(sshd:session): session closed for user ubuntu
+Jul 18 22:06:15 ubuntu systemd-logind[833]: Removed session 848.
+Jul 18 22:17:01 ubuntu CRON[1841]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 22:17:01 ubuntu CRON[1841]: pam_unix(cron:session): session closed for user root
+Jul 18 22:26:51 ubuntu sshd[30797]: Received disconnect from 192.168.3.1 port 51392:11: disconnected by user
+Jul 18 22:26:51 ubuntu sshd[30797]: Disconnected from 192.168.3.1 port 51392
+Jul 18 22:26:51 ubuntu sshd[30765]: pam_unix(sshd:session): session closed for user ubuntu
+Jul 18 22:26:51 ubuntu systemd-logind[833]: Removed session 853.
+Jul 18 23:17:01 ubuntu CRON[1868]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 23:17:01 ubuntu CRON[1868]: pam_unix(cron:session): session closed for user root
+Jul 19 00:17:01 ubuntu CRON[1891]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 19 00:17:01 ubuntu CRON[1891]: pam_unix(cron:session): session closed for user root
+Jul 19 01:17:01 ubuntu CRON[1913]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 19 01:17:01 ubuntu CRON[1913]: pam_unix(cron:session): session closed for user root
+Jul 19 02:17:01 ubuntu CRON[1940]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 19 02:17:01 ubuntu CRON[1940]: pam_unix(cron:session): session closed for user root
+Jul 19 03:17:01 ubuntu CRON[1963]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 19 03:17:01 ubuntu CRON[1963]: pam_unix(cron:session): session closed for user root
+Jul 19 04:17:01 ubuntu CRON[1989]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 19 04:17:01 ubuntu CRON[1989]: pam_unix(cron:session): session closed for user root
+Jul 19 05:17:01 ubuntu CRON[2014]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 19 05:17:01 ubuntu CRON[2014]: pam_unix(cron:session): session closed for user root
+Jul 19 06:17:01 ubuntu CRON[2040]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 19 06:17:01 ubuntu CRON[2040]: pam_unix(cron:session): session closed for user root
+Jul 19 06:25:01 ubuntu CRON[2045]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 19 06:25:10 ubuntu CRON[2045]: pam_unix(cron:session): session closed for user root
+Jul 19 07:17:01 ubuntu CRON[2352]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 19 07:17:01 ubuntu CRON[2352]: pam_unix(cron:session): session closed for user root
+Jul 19 08:17:01 ubuntu CRON[2374]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 19 08:17:01 ubuntu CRON[2374]: pam_unix(cron:session): session closed for user root
+Jul 19 09:17:01 ubuntu CRON[2751]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 19 09:17:01 ubuntu CRON[2751]: pam_unix(cron:session): session closed for user root
+Jul 19 10:17:01 ubuntu CRON[2776]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 19 10:17:01 ubuntu CRON[2776]: pam_unix(cron:session): session closed for user root
+Jul 19 11:17:01 ubuntu CRON[2801]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 19 11:17:01 ubuntu CRON[2801]: pam_unix(cron:session): session closed for user root
+Jul 19 12:17:01 ubuntu CRON[2826]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 19 12:17:01 ubuntu CRON[2826]: pam_unix(cron:session): session closed for user root
+Jul 19 12:34:36 ubuntu sshd[2836]: Accepted password for ubuntu from 192.168.3.1 port 55076 ssh2
+Jul 19 12:34:36 ubuntu sshd[2836]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Jul 19 12:34:36 ubuntu systemd-logind[833]: New session 872 of user ubuntu.
+Jul 19 12:35:19 ubuntu sudo:   ubuntu : TTY=pts/1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/bin/rm enp0s3-pvt-thursday.pcap
+Jul 19 12:35:19 ubuntu sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 19 12:35:21 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Jul 19 12:35:31 ubuntu sudo:   ubuntu : TTY=pts/1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/bin/rm enp0s3-pvt-tuesday.pcap
+Jul 19 12:35:31 ubuntu sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 19 12:35:31 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Jul 19 12:35:35 ubuntu sudo:   ubuntu : TTY=pts/1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/sbin/tcpdump -i enp0s3 -w enp0s3-tcpdump-pvt-friday.pcap
+Jul 19 12:35:35 ubuntu sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 19 13:17:01 ubuntu CRON[2951]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 19 13:17:01 ubuntu CRON[2951]: pam_unix(cron:session): session closed for user root
+Jul 19 14:17:01 ubuntu CRON[2982]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 19 14:17:01 ubuntu CRON[2982]: pam_unix(cron:session): session closed for user root
+Jul 19 14:40:30 ubuntu sshd[29005]: Received disconnect from 192.168.3.34 port 58792:11: disconnected by user
+Jul 19 14:40:30 ubuntu sshd[29005]: Disconnected from 192.168.3.34 port 58792
+Jul 19 14:40:30 ubuntu sshd[28973]: pam_unix(sshd:session): session closed for user ubuntu
+Jul 19 14:40:30 ubuntu systemd-logind[833]: Removed session 845.
+Jul 19 15:17:01 ubuntu CRON[4160]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 19 15:17:01 ubuntu CRON[4160]: pam_unix(cron:session): session closed for user root
+Jul 19 16:12:28 ubuntu sshd[8049]: Accepted password for ubuntu from 192.168.3.34 port 59498 ssh2
+Jul 19 16:12:28 ubuntu sshd[8049]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Jul 19 16:12:28 ubuntu systemd-logind[833]: New session 876 of user ubuntu.
+Jul 19 16:14:14 ubuntu sudo:   ubuntu : TTY=pts/1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/docker ps
+Jul 19 16:14:14 ubuntu sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 19 16:14:14 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Jul 19 16:14:41 ubuntu sudo:   ubuntu : TTY=pts/1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/docker exec -it cd07f5fa24f4 /bin/bash
+Jul 19 16:14:41 ubuntu sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 19 16:17:01 ubuntu CRON[8166]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 19 16:17:01 ubuntu CRON[8166]: pam_unix(cron:session): session closed for user root
+Jul 19 17:17:01 ubuntu CRON[9722]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 19 17:17:01 ubuntu CRON[9722]: pam_unix(cron:session): session closed for user root
+Jul 19 18:17:01 ubuntu CRON[9748]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 19 18:17:01 ubuntu CRON[9748]: pam_unix(cron:session): session closed for user root
+Jul 19 18:58:23 ubuntu sshd[9764]: Accepted password for ubuntu from 192.168.3.1 port 56698 ssh2
+Jul 19 18:58:23 ubuntu sshd[9764]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Jul 19 18:58:23 ubuntu systemd-logind[833]: New session 880 of user ubuntu.
+Jul 19 19:17:01 ubuntu CRON[9868]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 19 19:17:01 ubuntu CRON[9868]: pam_unix(cron:session): session closed for user root
+Jul 19 19:38:09 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Jul 19 19:38:14 ubuntu sudo:   ubuntu : TTY=pts/1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/docker ps
+Jul 19 19:38:14 ubuntu sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 19 19:38:14 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Jul 19 19:38:36 ubuntu sudo:   ubuntu : TTY=pts/1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/docker exec -it bc91f84ddb5f /bin/bash
+Jul 19 19:38:36 ubuntu sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 19 19:40:16 ubuntu sshd[9818]: Received disconnect from 192.168.3.1 port 56698:11: disconnected by user
+Jul 19 19:40:16 ubuntu sshd[9818]: Disconnected from 192.168.3.1 port 56698
+Jul 19 19:40:16 ubuntu sshd[9764]: pam_unix(sshd:session): session closed for user ubuntu
+Jul 19 19:40:16 ubuntu systemd-logind[833]: Removed session 880.
+Jul 19 20:14:02 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Jul 19 20:17:01 ubuntu CRON[10074]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 19 20:17:01 ubuntu CRON[10074]: pam_unix(cron:session): session closed for user root
+Jul 19 20:36:08 ubuntu sudo:   ubuntu : TTY=pts/1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/docker ps
+Jul 19 20:36:08 ubuntu sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 19 20:36:08 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Jul 19 20:36:31 ubuntu sudo:   ubuntu : TTY=pts/1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/docker exec -it cd07f5fa24f4 /bin/bash
+Jul 19 20:36:31 ubuntu sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 19 20:36:49 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Jul 19 20:36:52 ubuntu sudo:   ubuntu : TTY=pts/1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/docker ps
+Jul 19 20:36:52 ubuntu sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 19 20:36:52 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Jul 19 20:37:09 ubuntu sudo:   ubuntu : TTY=pts/1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/docker exec -it bdee4dfb9d7a /bin/bash
+Jul 19 20:37:09 ubuntu sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 19 20:39:04 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Jul 19 21:17:01 ubuntu CRON[10273]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 19 21:17:01 ubuntu CRON[10273]: pam_unix(cron:session): session closed for user root
+Jul 19 21:19:35 ubuntu sshd[10276]: Invalid user invader from 192.168.3.29
+Jul 19 21:19:35 ubuntu sshd[10276]: input_userauth_request: invalid user invader [preauth]
+Jul 19 21:19:38 ubuntu sshd[10276]: pam_unix(sshd:auth): check pass; user unknown
+Jul 19 21:19:38 ubuntu sshd[10276]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.3.29
+Jul 19 21:19:41 ubuntu sshd[10276]: Failed password for invalid user invader from 192.168.3.29 port 56620 ssh2
+Jul 19 21:19:53 ubuntu sshd[10276]: pam_unix(sshd:auth): check pass; user unknown
+Jul 19 21:19:55 ubuntu sshd[10276]: Failed password for invalid user invader from 192.168.3.29 port 56620 ssh2
+Jul 19 21:21:00 ubuntu sshd[10276]: pam_unix(sshd:auth): check pass; user unknown
+Jul 19 21:21:02 ubuntu sshd[10276]: Failed password for invalid user invader from 192.168.3.29 port 56620 ssh2
+Jul 19 21:21:02 ubuntu sshd[10276]: Connection closed by 192.168.3.29 port 56620 [preauth]
+Jul 19 21:21:02 ubuntu sshd[10276]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.3.29
+Jul 19 21:21:13 ubuntu sshd[10279]: Invalid user hacker from 192.168.3.29
+Jul 19 21:21:13 ubuntu sshd[10279]: input_userauth_request: invalid user hacker [preauth]
+Jul 19 21:21:17 ubuntu sshd[10279]: pam_unix(sshd:auth): check pass; user unknown
+Jul 19 21:21:17 ubuntu sshd[10279]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.3.29
+Jul 19 21:21:19 ubuntu sshd[10279]: Failed password for invalid user hacker from 192.168.3.29 port 56818 ssh2
+Jul 19 21:21:23 ubuntu sshd[10279]: pam_unix(sshd:auth): check pass; user unknown
+Jul 19 21:21:24 ubuntu sshd[10279]: Failed password for invalid user hacker from 192.168.3.29 port 56818 ssh2
+Jul 19 21:21:27 ubuntu sshd[10279]: pam_unix(sshd:auth): check pass; user unknown
+Jul 19 21:21:29 ubuntu sshd[10279]: Failed password for invalid user hacker from 192.168.3.29 port 56818 ssh2
+Jul 19 21:21:29 ubuntu sshd[10279]: Connection closed by 192.168.3.29 port 56818 [preauth]
+Jul 19 21:21:29 ubuntu sshd[10279]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.3.29
+Jul 19 21:22:28 ubuntu sshd[10281]: Accepted password for ubuntu from 192.168.3.1 port 57681 ssh2
+Jul 19 21:22:28 ubuntu sshd[10281]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Jul 19 21:22:28 ubuntu systemd-logind[833]: New session 884 of user ubuntu.
+Jul 19 21:29:30 ubuntu sshd[10351]: Connection closed by 192.168.3.29 port 57814 [preauth]
+Jul 19 21:34:01 ubuntu CRON[10356]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 19 21:34:01 ubuntu CRON[10356]: pam_unix(cron:session): session closed for user root
+Jul 19 22:15:39 ubuntu sshd[10373]: Accepted password for ubuntu from 192.168.3.1 port 58054 ssh2
+Jul 19 22:15:39 ubuntu sshd[10373]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Jul 19 22:15:39 ubuntu systemd-logind[833]: New session 886 of user ubuntu.
+Jul 19 22:15:56 ubuntu sudo:   ubuntu : TTY=pts/3 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/docker ps
+Jul 19 22:15:56 ubuntu sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 19 22:15:57 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Jul 19 22:16:12 ubuntu sudo:   ubuntu : TTY=pts/3 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/docker exec -it bdee4dfb9d7a /bin/bash
+Jul 19 22:16:12 ubuntu sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 19 22:17:01 ubuntu CRON[10996]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 19 22:17:01 ubuntu CRON[10996]: pam_unix(cron:session): session closed for user root
+Jul 19 22:21:08 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Jul 19 22:29:35 ubuntu sudo:   ubuntu : TTY=pts/3 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/bin/ps aux
+Jul 19 22:29:35 ubuntu sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 19 22:29:35 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Jul 19 22:29:41 ubuntu sudo:   ubuntu : TTY=pts/3 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/bin/kill 2910
+Jul 19 22:29:41 ubuntu sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 19 22:29:41 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Jul 19 22:29:44 ubuntu sudo:   ubuntu : TTY=pts/3 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/bin/kill 2931
+Jul 19 22:29:44 ubuntu sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 19 22:29:44 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Jul 19 22:29:44 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Jul 19 22:29:46 ubuntu sudo:   ubuntu : TTY=pts/3 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/bin/ps aux
+Jul 19 22:29:46 ubuntu sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 19 22:29:47 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Jul 19 22:29:51 ubuntu sudo:   ubuntu : TTY=pts/3 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/bin/kill 2910
+Jul 19 22:29:51 ubuntu sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jul 19 22:29:51 ubuntu sudo: pam_unix(sudo:session): session closed for user root

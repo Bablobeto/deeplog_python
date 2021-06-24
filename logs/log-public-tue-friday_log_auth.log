@@ -1,0 +1,1128 @@
+Jul 16 13:48:20 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 16 13:49:57 aimlsec pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jul 16 13:49:57 aimlsec pkexec[16748]: aimlsec: Executing command [USER=root] [TTY=unknown] [CWD=/home/aimlsec] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Jul 16 14:03:12 aimlsec sudo:  aimlsec : TTY=pts/17 ; PWD=/var/log ; USER=root ; COMMAND=/usr/sbin/service filebeat restart
+Jul 16 14:03:12 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 16 14:03:13 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 16 14:03:36 aimlsec sudo:  aimlsec : TTY=pts/17 ; PWD=/var/log/filebeat ; USER=root ; COMMAND=/usr/bin/apt install tree
+Jul 16 14:03:36 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 16 14:03:44 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 16 14:04:30 aimlsec sudo:  aimlsec : TTY=pts/17 ; PWD=/var/log ; USER=root ; COMMAND=/usr/sbin/service apache2 restart
+Jul 16 14:04:30 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 16 14:04:31 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 16 14:04:56 aimlsec pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jul 16 14:04:56 aimlsec pkexec[18653]: aimlsec: Executing command [USER=root] [TTY=unknown] [CWD=/home/aimlsec] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Jul 16 14:17:01 aimlsec CRON[19216]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 16 14:17:01 aimlsec CRON[19216]: pam_unix(cron:session): session closed for user root
+Jul 16 15:17:01 aimlsec CRON[22024]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 16 15:17:01 aimlsec CRON[22024]: pam_unix(cron:session): session closed for user root
+Jul 16 16:11:17 aimlsec sudo:  aimlsec : TTY=pts/17 ; PWD=/var/log ; USER=root ; COMMAND=/bin/df -h
+Jul 16 16:11:17 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 16 16:11:17 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 16 16:17:01 aimlsec CRON[24818]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 16 16:17:01 aimlsec CRON[24818]: pam_unix(cron:session): session closed for user root
+Jul 16 17:17:01 aimlsec CRON[27820]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 16 17:17:01 aimlsec CRON[27820]: pam_unix(cron:session): session closed for user root
+Jul 16 17:18:04 aimlsec gnome-keyring-daemon[1330]: couldn't initialize slot with master password: The password or PIN is incorrect
+Jul 16 17:18:04 aimlsec gdm-password]: gkr-pam: unlocked login keyring
+Jul 16 17:25:17 aimlsec sshd[7981]: Received disconnect from 192.168.3.1 port 59952:11: disconnected by user
+Jul 16 17:25:17 aimlsec sshd[7981]: Disconnected from user aimlsec 192.168.3.1 port 59952
+Jul 16 17:25:17 aimlsec sshd[7887]: pam_unix(sshd:session): session closed for user aimlsec
+Jul 16 18:17:01 aimlsec CRON[31000]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 16 18:17:01 aimlsec CRON[31000]: pam_unix(cron:session): session closed for user root
+Jul 16 18:26:53 aimlsec gnome-keyring-daemon[1330]: couldn't initialize slot with master password: The password or PIN is incorrect
+Jul 16 18:26:53 aimlsec gdm-password]: gkr-pam: unlocked login keyring
+Jul 16 18:32:39 aimlsec sshd[31840]: Received disconnect from 192.168.3.1 port 56949:11: disconnected by user
+Jul 16 18:32:39 aimlsec sshd[31840]: Disconnected from user aimlsec 192.168.3.1 port 56949
+Jul 16 18:32:39 aimlsec sshd[31760]: pam_unix(sshd:session): session closed for user aimlsec
+Jul 16 18:32:39 aimlsec systemd-logind[448]: Removed session 912.
+Jul 16 18:50:49 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 16 18:50:51 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 16 18:50:59 aimlsec polkitd(authority=local): Unregistered Authentication Agent for unix-session:2 (system bus name :1.75, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Jul 16 18:51:03 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 16 18:51:08 aimlsec gdm-password]: pam_unix(gdm-password:session): session closed for user aimlsec
+Jul 16 18:54:48 aimlsec gdm-password]: pam_unix(gdm-password:session): session opened for user aimlsec by (uid=0)
+Jul 16 18:54:48 aimlsec systemd-logind[448]: New session 938 of user aimlsec.
+Jul 16 18:54:56 aimlsec polkitd(authority=local): Registered Authentication Agent for unix-session:938 (system bus name :1.966 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Jul 16 18:56:49 aimlsec pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jul 16 18:56:49 aimlsec pkexec[2138]: aimlsec: Executing command [USER=root] [TTY=unknown] [CWD=/home/aimlsec] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Jul 16 19:11:05 aimlsec pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jul 16 19:11:05 aimlsec pkexec[3353]: aimlsec: Executing command [USER=root] [TTY=unknown] [CWD=/home/aimlsec] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Jul 16 19:17:01 aimlsec CRON[3809]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 16 19:17:01 aimlsec CRON[3809]: pam_unix(cron:session): session closed for user root
+Jul 16 20:17:01 aimlsec CRON[17986]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 16 20:17:01 aimlsec CRON[17986]: pam_unix(cron:session): session closed for user root
+Jul 16 21:15:47 aimlsec sshd[22213]: Accepted password for aimlsec from 192.168.3.1 port 34546 ssh2
+Jul 16 21:15:47 aimlsec sshd[22213]: pam_unix(sshd:session): session opened for user aimlsec by (uid=0)
+Jul 16 21:15:47 aimlsec systemd-logind[448]: New session 941 of user aimlsec.
+Jul 16 21:15:50 aimlsec sshd[22213]: lastlog_openseek: Couldn't stat /var/log/lastlog: No such file or directory
+Jul 16 21:15:50 aimlsec sshd[22213]: lastlog_openseek: Couldn't stat /var/log/lastlog: No such file or directory
+Jul 16 21:16:07 aimlsec sudo:  aimlsec : TTY=pts/0 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/bin/ps aux
+Jul 16 21:16:07 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 16 21:16:07 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 16 21:16:14 aimlsec sudo:  aimlsec : TTY=pts/0 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/bin/kill 4838
+Jul 16 21:16:14 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 16 21:16:14 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 16 21:16:14 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 16 21:16:16 aimlsec sudo:  aimlsec : TTY=pts/0 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/bin/ps aux
+Jul 16 21:16:16 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 16 21:16:16 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 16 21:16:25 aimlsec sudo:  aimlsec : TTY=pts/0 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/bin/kill 4852
+Jul 16 21:16:25 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 16 21:16:25 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 16 21:16:25 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 16 21:16:25 aimlsec systemd-logind[448]: Removed session 897.
+Jul 16 21:16:28 aimlsec sudo:  aimlsec : TTY=pts/0 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/bin/kill 4853
+Jul 16 21:16:28 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 16 21:16:28 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 16 21:16:32 aimlsec sudo:  aimlsec : TTY=pts/0 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/bin/ps aux
+Jul 16 21:16:32 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 16 21:16:32 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 16 21:16:40 aimlsec sudo:  aimlsec : TTY=pts/0 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/bin/kill 8492
+Jul 16 21:16:40 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 16 21:16:40 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 16 21:16:40 aimlsec systemd-logind[448]: Removed session 930.
+Jul 16 21:16:40 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 16 21:16:42 aimlsec sudo:  aimlsec : TTY=pts/0 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/bin/ps aux
+Jul 16 21:16:42 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 16 21:16:42 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 16 21:17:01 aimlsec CRON[22462]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 16 21:17:01 aimlsec CRON[22462]: pam_unix(cron:session): session closed for user root
+Jul 16 21:18:30 aimlsec sshd[22525]: Accepted password for aimlsec from 192.168.3.30 port 54068 ssh2
+Jul 16 21:18:30 aimlsec sshd[22525]: pam_unix(sshd:session): session opened for user aimlsec by (uid=0)
+Jul 16 21:18:30 aimlsec systemd-logind[448]: New session 943 of user aimlsec.
+Jul 16 21:18:32 aimlsec sshd[22594]: Received disconnect from 192.168.3.30 port 54068:11: disconnected by user
+Jul 16 21:18:32 aimlsec systemd-logind[448]: Removed session 943.
+Jul 16 21:18:32 aimlsec sshd[22594]: Disconnected from user aimlsec 192.168.3.30 port 54068
+Jul 16 21:18:32 aimlsec sshd[22525]: pam_unix(sshd:session): session closed for user aimlsec
+Jul 16 21:19:44 aimlsec gdm-password]: gkr-pam: unlocked login keyring
+Jul 16 21:40:59 aimlsec sudo:  aimlsec : TTY=pts/0 ; PWD=/home/aimlsec/aimlsec ; USER=root ; COMMAND=/usr/bin/apt install --upgrade python-pip
+Jul 16 21:40:59 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 16 21:41:26 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 16 21:42:04 aimlsec gdm-password]: gkr-pam: unlocked login keyring
+Jul 16 21:46:15 aimlsec pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jul 16 21:46:15 aimlsec pkexec[25875]: aimlsec: Executing command [USER=root] [TTY=unknown] [CWD=/home/aimlsec] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Jul 16 21:47:58 aimlsec sudo:  aimlsec : TTY=pts/0 ; PWD=/home/aimlsec/aimlsec1 ; USER=root ; COMMAND=/bin/cp -r /home/aimlsec/aimlsec/
+Jul 16 21:47:58 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 16 21:47:58 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 16 21:48:02 aimlsec sudo:  aimlsec : TTY=pts/0 ; PWD=/home/aimlsec/aimlsec1 ; USER=root ; COMMAND=/bin/cp -r . /home/aimlsec/aimlsec/
+Jul 16 21:48:02 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 16 21:50:47 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 16 21:51:06 aimlsec sudo:  aimlsec : TTY=pts/0 ; PWD=/home/aimlsec/aimlsec ; USER=root ; COMMAND=/bin/rm -rf enp0s3-monday.pcap enp0s3-monday-pvt.pcap enp0s3-public-tuesday.pcap enp0s3-pvt-tuesday.pcap index.html index.html.1 README.md
+Jul 16 21:51:06 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 16 21:51:07 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 16 21:53:34 aimlsec sudo:  aimlsec : TTY=pts/0 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/bin/cp -r aimlsec1/enp0s3-monday.pcap aimlsec1/enp0s3-monday-pvt.pcap aimlsec1/enp0s3-public-tuesday.pcap aimlsec1/enp0s3-pvt-tuesday.pcap aimlsec1/index.html aimlsec1/index.html.1 aimlsec1/log-public-monday aimlsec1/log-pvt-monday aimlsec1/README.md aimlsec
+Jul 16 21:53:35 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 16 21:58:09 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 16 22:02:58 aimlsec sudo:  aimlsec : TTY=pts/0 ; PWD=/home/aimlsec/aimlsec ; USER=root ; COMMAND=/bin/chown -R aimlsec:aimlsec .gitattributes
+Jul 16 22:02:58 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 16 22:02:58 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 16 22:07:12 aimlsec sudo:  aimlsec : TTY=pts/0 ; PWD=/home/aimlsec/aimlsec ; USER=root ; COMMAND=/bin/rm -rf .git/
+Jul 16 22:07:12 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 16 22:07:12 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 16 22:08:23 aimlsec sudo:  aimlsec : TTY=pts/0 ; PWD=/home/aimlsec/aimlsec ; USER=root ; COMMAND=/bin/chmod -R aimlsec:aimlsec README.md
+Jul 16 22:08:23 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 16 22:08:23 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 16 22:08:27 aimlsec sudo:  aimlsec : TTY=pts/0 ; PWD=/home/aimlsec/aimlsec ; USER=root ; COMMAND=/bin/chmod -R aimlsec:aimlsec csv log-public-monday log-pvt-monday pcap-data README.md
+Jul 16 22:08:27 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 16 22:08:27 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 16 22:08:33 aimlsec sudo:  aimlsec : TTY=pts/0 ; PWD=/home/aimlsec/aimlsec ; USER=root ; COMMAND=/bin/chown -R aimlsec:aimlsec csv log-public-monday log-pvt-monday pcap-data README.md
+Jul 16 22:08:33 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 16 22:08:33 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 16 22:12:54 aimlsec systemd-logind[606]: New seat seat0.
+Jul 16 22:12:54 aimlsec systemd-logind[606]: Watching system buttons on /dev/input/event0 (Power Button)
+Jul 16 22:12:54 aimlsec systemd-logind[606]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Jul 16 22:12:54 aimlsec systemd-logind[606]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Jul 16 22:13:01 aimlsec sshd[1126]: Server listening on 0.0.0.0 port 22.
+Jul 16 22:13:01 aimlsec sshd[1126]: Server listening on :: port 22.
+Jul 16 22:13:03 aimlsec gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm by (uid=0)
+Jul 16 22:13:03 aimlsec systemd-logind[606]: New session c1 of user gdm.
+Jul 16 22:13:03 aimlsec systemd: pam_unix(systemd-user:session): session opened for user gdm by (uid=0)
+Jul 16 22:13:11 aimlsec sshd[1358]: Accepted password for aimlsec from 192.168.3.1 port 34913 ssh2
+Jul 16 22:13:11 aimlsec sshd[1358]: pam_unix(sshd:session): session opened for user aimlsec by (uid=0)
+Jul 16 22:13:11 aimlsec systemd: pam_unix(systemd-user:session): session opened for user aimlsec by (uid=0)
+Jul 16 22:13:11 aimlsec systemd-logind[606]: New session 2 of user aimlsec.
+Jul 16 22:13:17 aimlsec polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.25 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Jul 16 22:13:29 aimlsec sudo:  aimlsec : TTY=pts/0 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/bin/rm -rf aimlsec1
+Jul 16 22:13:29 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 16 22:13:29 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 16 22:13:35 aimlsec dbus-daemon[505]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Jul 16 22:13:36 aimlsec sshd[1126]: Received SIGHUP; restarting.
+Jul 16 22:13:36 aimlsec sshd[1126]: Server listening on 0.0.0.0 port 22.
+Jul 16 22:13:36 aimlsec sshd[1126]: Server listening on :: port 22.
+Jul 16 22:14:13 aimlsec sudo:  aimlsec : TTY=pts/0 ; PWD=/home/aimlsec/aimlsec ; USER=root ; COMMAND=/bin/rm /home/aimlsec/aimlsec/.git/index.lock
+Jul 16 22:14:13 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 16 22:14:13 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 16 22:20:51 aimlsec systemd-logind[496]: Watching system buttons on /dev/input/event0 (Power Button)
+Jul 16 22:20:51 aimlsec systemd-logind[496]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Jul 16 22:20:51 aimlsec systemd-logind[496]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Jul 16 22:20:51 aimlsec systemd-logind[496]: New seat seat0.
+Jul 16 22:20:57 aimlsec sshd[1105]: Server listening on 0.0.0.0 port 22.
+Jul 16 22:20:57 aimlsec sshd[1105]: Server listening on :: port 22.
+Jul 16 22:21:00 aimlsec gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm by (uid=0)
+Jul 16 22:21:00 aimlsec systemd-logind[496]: New session c1 of user gdm.
+Jul 16 22:21:00 aimlsec systemd: pam_unix(systemd-user:session): session opened for user gdm by (uid=0)
+Jul 16 22:21:03 aimlsec sshd[1203]: Accepted password for aimlsec from 192.168.3.1 port 34976 ssh2
+Jul 16 22:21:03 aimlsec sshd[1203]: pam_unix(sshd:session): session opened for user aimlsec by (uid=0)
+Jul 16 22:21:03 aimlsec systemd: pam_unix(systemd-user:session): session opened for user aimlsec by (uid=0)
+Jul 16 22:21:03 aimlsec systemd-logind[496]: New session 2 of user aimlsec.
+Jul 16 22:21:12 aimlsec polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.26 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Jul 16 22:21:31 aimlsec sshd[1105]: Received SIGHUP; restarting.
+Jul 16 22:21:31 aimlsec sshd[1105]: Server listening on 0.0.0.0 port 22.
+Jul 16 22:21:31 aimlsec sshd[1105]: Server listening on :: port 22.
+Jul 16 22:21:33 aimlsec dbus-daemon[508]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Jul 16 22:23:34 aimlsec sudo:  aimlsec : TTY=pts/0 ; PWD=/home/aimlsec/aimlsec ; USER=root ; COMMAND=/bin/rm /home/aimlsec/aimlsec/.git/index.lock
+Jul 16 22:23:34 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 16 22:23:34 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 16 22:33:13 aimlsec sudo:  aimlsec : TTY=pts/0 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/usr/bin/vim /etc/resolv.conf
+Jul 16 22:33:13 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 16 22:33:26 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 16 22:38:07 aimlsec sudo:  aimlsec : TTY=pts/0 ; PWD=/home/aimlsec/aimlsec ; USER=root ; COMMAND=/bin/cp -r csv log-public-monday log-pvt-monday pcap-data README.md /home/aimlsec/apt/
+Jul 16 22:38:07 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 16 22:41:44 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 16 22:43:00 aimlsec sudo:  aimlsec : TTY=pts/0 ; PWD=/home/aimlsec/apt ; USER=root ; COMMAND=/usr/bin/git add .
+Jul 16 22:43:00 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 16 22:48:38 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 16 22:49:42 aimlsec sudo:  aimlsec : TTY=pts/0 ; PWD=/home/aimlsec/apt ; USER=root ; COMMAND=/usr/bin/git commit -m adding files
+Jul 16 22:49:42 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 16 22:49:42 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 16 22:49:52 aimlsec sudo:  aimlsec : TTY=pts/0 ; PWD=/home/aimlsec/apt ; USER=root ; COMMAND=/bin/rm -rf .git/
+Jul 16 22:49:52 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 16 22:49:52 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 16 22:49:55 aimlsec sudo:  aimlsec : TTY=pts/0 ; PWD=/home/aimlsec/apt ; USER=root ; COMMAND=/usr/bin/git commit -m adding files
+Jul 16 22:49:55 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 16 22:49:55 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 16 22:50:17 aimlsec sudo:  aimlsec : TTY=pts/0 ; PWD=/home/aimlsec/apt ; USER=root ; COMMAND=/usr/bin/git add .
+Jul 16 22:50:17 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 16 22:56:26 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 16 22:56:31 aimlsec sudo:  aimlsec : TTY=pts/0 ; PWD=/home/aimlsec/apt ; USER=root ; COMMAND=/usr/bin/git commit -m adding files
+Jul 16 22:56:31 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 16 22:56:32 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 16 22:57:27 aimlsec sudo:  aimlsec : TTY=pts/0 ; PWD=/home/aimlsec/apt ; USER=root ; COMMAND=/usr/bin/git add .
+Jul 16 22:57:27 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 16 22:57:27 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 16 22:57:31 aimlsec sudo:  aimlsec : TTY=pts/0 ; PWD=/home/aimlsec/apt ; USER=root ; COMMAND=/usr/bin/git commit -m adding files
+Jul 16 22:57:31 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 16 22:57:31 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 16 22:58:47 aimlsec sudo:  aimlsec : TTY=pts/0 ; PWD=/home/aimlsec/apt ; USER=root ; COMMAND=/usr/bin/git add .
+Jul 16 22:58:47 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 16 22:58:47 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 16 22:58:54 aimlsec sudo:  aimlsec : TTY=pts/0 ; PWD=/home/aimlsec/apt ; USER=root ; COMMAND=/usr/bin/git commit -m adding files
+Jul 16 22:58:54 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 16 22:58:54 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 16 22:59:47 aimlsec sudo:  aimlsec : TTY=pts/0 ; PWD=/home/aimlsec/apt ; USER=root ; COMMAND=/bin/chown -R aimlsec:aimlsec csv log-public-monday log-pvt-monday pcap-data README.md
+Jul 16 22:59:47 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 16 22:59:47 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 16 23:01:57 aimlsec sudo:  aimlsec : TTY=pts/0 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/bin/rm -rf apt/
+Jul 16 23:01:57 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 16 23:01:58 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 16 23:02:29 aimlsec sudo:  aimlsec : TTY=pts/0 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/bin/cp -r aimlsec/csv aimlsec/log-public-monday aimlsec/log-pvt-monday aimlsec/pcap-data aimlsec/README.md apt/
+Jul 16 23:02:29 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 16 23:07:06 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 16 23:13:26 aimlsec sudo:  aimlsec : TTY=pts/0 ; PWD=/home/aimlsec/apt ; USER=root ; COMMAND=/bin/chown -R aimlsec:aimlsec csv log-public-monday log-pvt-monday pcap-data README.md
+Jul 16 23:13:26 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 16 23:13:26 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 16 23:17:01 aimlsec CRON[4091]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 16 23:17:01 aimlsec CRON[4091]: pam_unix(cron:session): session closed for user root
+Jul 16 23:21:00 aimlsec sudo:  aimlsec : TTY=pts/0 ; PWD=/home/aimlsec/apt ; USER=root ; COMMAND=/usr/bin/git commit -m adding files
+Jul 16 23:21:00 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 16 23:21:01 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 16 23:36:51 aimlsec sudo:  aimlsec : TTY=pts/0 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/bin/rm -rf aimlsec/
+Jul 16 23:36:51 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 16 23:36:51 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 17 00:17:01 aimlsec CRON[6025]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 00:17:01 aimlsec CRON[6025]: pam_unix(cron:session): session closed for user root
+Jul 17 01:17:01 aimlsec CRON[7482]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 01:17:01 aimlsec CRON[7482]: pam_unix(cron:session): session closed for user root
+Jul 17 01:50:01 aimlsec CRON[8279]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 01:50:01 aimlsec CRON[8279]: pam_unix(cron:session): session closed for user root
+Jul 17 02:17:01 aimlsec CRON[9040]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 02:17:01 aimlsec CRON[9040]: pam_unix(cron:session): session closed for user root
+Jul 17 03:17:01 aimlsec CRON[10479]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 03:17:01 aimlsec CRON[10479]: pam_unix(cron:session): session closed for user root
+Jul 17 04:17:01 aimlsec CRON[12049]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 04:17:01 aimlsec CRON[12049]: pam_unix(cron:session): session closed for user root
+Jul 17 05:17:01 aimlsec CRON[13492]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 05:17:01 aimlsec CRON[13492]: pam_unix(cron:session): session closed for user root
+Jul 17 06:17:01 aimlsec CRON[15125]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 06:17:01 aimlsec CRON[15125]: pam_unix(cron:session): session closed for user root
+Jul 17 06:25:01 aimlsec CRON[15333]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 06:25:01 aimlsec CRON[15333]: pam_unix(cron:session): session closed for user root
+Jul 17 07:17:01 aimlsec CRON[16745]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 07:17:01 aimlsec CRON[16745]: pam_unix(cron:session): session closed for user root
+Jul 17 07:30:01 aimlsec CRON[17130]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 07:30:01 aimlsec CRON[17130]: pam_unix(cron:session): session closed for user root
+Jul 17 08:17:01 aimlsec CRON[18418]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 08:17:01 aimlsec CRON[18418]: pam_unix(cron:session): session closed for user root
+Jul 17 09:17:01 aimlsec CRON[19959]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 09:17:01 aimlsec CRON[19959]: pam_unix(cron:session): session closed for user root
+Jul 17 10:17:01 aimlsec CRON[21648]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 10:17:01 aimlsec CRON[21648]: pam_unix(cron:session): session closed for user root
+Jul 17 11:17:01 aimlsec CRON[23204]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 11:17:01 aimlsec CRON[23204]: pam_unix(cron:session): session closed for user root
+Jul 17 12:17:01 aimlsec CRON[24895]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 12:17:01 aimlsec CRON[24895]: pam_unix(cron:session): session closed for user root
+Jul 17 13:03:33 aimlsec sshd[1454]: Received disconnect from 192.168.3.1 port 34976:11: disconnected by user
+Jul 17 13:03:33 aimlsec systemd-logind[496]: Removed session 2.
+Jul 17 13:03:33 aimlsec sshd[1454]: Disconnected from user aimlsec 192.168.3.1 port 34976
+Jul 17 13:03:33 aimlsec sshd[1203]: pam_unix(sshd:session): session closed for user aimlsec
+Jul 17 13:03:33 aimlsec sudo: pam_unix(sudo:auth): conversation failed
+Jul 17 13:03:33 aimlsec sudo: pam_unix(sudo:auth): auth could not identify password for [aimlsec]
+Jul 17 13:17:02 aimlsec CRON[27045]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 13:17:02 aimlsec CRON[27045]: pam_unix(cron:session): session closed for user root
+Jul 17 13:31:07 aimlsec gdm-password]: pam_unix(gdm-password:session): session opened for user aimlsec by (uid=0)
+Jul 17 13:31:07 aimlsec systemd-logind[496]: New session 22 of user aimlsec.
+Jul 17 13:31:07 aimlsec systemd: pam_unix(systemd-user:session): session opened for user aimlsec by (uid=0)
+Jul 17 13:31:18 aimlsec polkitd(authority=local): Registered Authentication Agent for unix-session:22 (system bus name :1.90 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Jul 17 13:31:39 aimlsec dbus-daemon[508]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Jul 17 13:31:46 aimlsec sudo:  aimlsec : TTY=pts/0 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/usr/bin/docker ps
+Jul 17 13:31:46 aimlsec sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 17 13:31:50 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 17 13:32:24 aimlsec pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jul 17 13:32:24 aimlsec pkexec[28240]: aimlsec: Executing command [USER=root] [TTY=unknown] [CWD=/home/aimlsec] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Jul 17 13:33:16 aimlsec sudo:  aimlsec : TTY=pts/0 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/usr/bin/docker --rm -it 80:80 vulnerables/dvwa
+Jul 17 13:33:16 aimlsec sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 17 13:33:16 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 17 13:33:49 aimlsec sshd[28305]: Accepted password for aimlsec from 192.168.3.1 port 39422 ssh2
+Jul 17 13:33:49 aimlsec sshd[28305]: pam_unix(sshd:session): session opened for user aimlsec by (uid=0)
+Jul 17 13:33:49 aimlsec systemd-logind[496]: New session 24 of user aimlsec.
+Jul 17 13:34:05 aimlsec sudo:  aimlsec : TTY=pts/1 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/usr/bin/docker run --rm -it -p 80:80 vulnerables/web-dvwa
+Jul 17 13:34:05 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 17 13:36:23 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 17 13:37:00 aimlsec sudo:  aimlsec : TTY=pts/1 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/usr/bin/docker run --rm -it -p 9002:80 vulnerables/web-dvwa
+Jul 17 13:37:00 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 17 13:37:42 aimlsec sshd[29691]: Accepted password for aimlsec from 192.168.3.1 port 39442 ssh2
+Jul 17 13:37:42 aimlsec sshd[29691]: pam_unix(sshd:session): session opened for user aimlsec by (uid=0)
+Jul 17 13:37:42 aimlsec systemd-logind[496]: New session 25 of user aimlsec.
+Jul 17 13:38:29 aimlsec sudo:  aimlsec : TTY=pts/2 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/usr/bin/docker run -d -p 9000:80 -p 443:443 --name owasp17 bltsec/mutillidae-docker
+Jul 17 13:38:29 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 17 13:38:30 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 17 13:38:48 aimlsec sudo:  aimlsec : TTY=pts/2 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/usr/bin/docker start owasp17
+Jul 17 13:38:48 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 17 13:38:49 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 17 13:38:54 aimlsec sudo:  aimlsec : TTY=pts/2 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/usr/bin/docker ps
+Jul 17 13:38:54 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 17 13:38:54 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 17 13:39:06 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 17 13:39:14 aimlsec sudo:  aimlsec : TTY=pts/1 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/usr/bin/docker ls
+Jul 17 13:39:14 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 17 13:39:14 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 17 13:39:17 aimlsec sudo:  aimlsec : TTY=pts/1 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/usr/bin/docker ps
+Jul 17 13:39:17 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 17 13:39:17 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 17 13:40:47 aimlsec sudo:  aimlsec : TTY=pts/2 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/usr/bin/docker container ls
+Jul 17 13:40:47 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 17 13:40:47 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 17 13:41:10 aimlsec sudo:  aimlsec : TTY=pts/2 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/usr/bin/docker start --name=vulnerables/web-dvwa
+Jul 17 13:41:10 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 17 13:41:10 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 17 13:41:15 aimlsec sudo:  aimlsec : TTY=pts/2 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/usr/bin/docker start vulnerables/web-dvwa
+Jul 17 13:41:15 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 17 13:41:15 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 17 13:41:32 aimlsec sudo:  aimlsec : TTY=pts/2 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/usr/bin/docker container start vulnerables/web-dvwa
+Jul 17 13:41:32 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 17 13:41:32 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 17 13:41:51 aimlsec sudo:  aimlsec : TTY=pts/2 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/usr/bin/docker container start 8a3890388f9d
+Jul 17 13:41:51 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 17 13:41:52 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 17 13:41:59 aimlsec sudo:  aimlsec : TTY=pts/2 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/usr/bin/docker container ls
+Jul 17 13:41:59 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 17 13:41:59 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 17 13:42:09 aimlsec sudo:  aimlsec : TTY=pts/2 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/usr/bin/docker container ls
+Jul 17 13:42:09 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 17 13:42:09 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 17 13:42:24 aimlsec sudo:  aimlsec : TTY=pts/2 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/usr/bin/docker container -a
+Jul 17 13:42:24 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 17 13:42:24 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 17 13:42:29 aimlsec sudo:  aimlsec : TTY=pts/2 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/usr/bin/docker container --all
+Jul 17 13:42:29 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 17 13:42:29 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 17 13:42:33 aimlsec sudo:  aimlsec : TTY=pts/2 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/usr/bin/docker container ls
+Jul 17 13:42:33 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 17 13:42:33 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 17 13:43:00 aimlsec sudo:  aimlsec : TTY=pts/2 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/usr/bin/docker container ls -a
+Jul 17 13:43:00 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 17 13:43:00 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 17 13:43:23 aimlsec sudo:  aimlsec : TTY=pts/2 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/usr/bin/docker container start 774cb8e8c599
+Jul 17 13:43:23 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 17 13:43:23 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 17 13:44:48 aimlsec sudo:  aimlsec : TTY=pts/2 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/usr/bin/docker container start jvhoof/badstore-docker
+Jul 17 13:44:48 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 17 13:44:48 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 17 13:45:18 aimlsec sudo:  aimlsec : TTY=pts/2 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/usr/bin/docker container start badstore-docker
+Jul 17 13:45:18 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 17 13:45:18 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 17 13:45:37 aimlsec sudo:  aimlsec : TTY=pts/2 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/usr/bin/docker container start 0ef7162fd6a0
+Jul 17 13:45:37 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 17 13:45:37 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 17 13:45:52 aimlsec sudo:  aimlsec : TTY=pts/2 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/usr/bin/docker container start a4de84d49667
+Jul 17 13:45:52 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 17 13:45:53 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 17 13:46:14 aimlsec sudo:  aimlsec : TTY=pts/2 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/usr/bin/docker sstart --name=vulnerables/web-dvwa
+Jul 17 13:46:14 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 17 13:46:14 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 17 13:46:21 aimlsec sudo:  aimlsec : TTY=pts/2 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/usr/bin/docker start --name=vulnerables/web-dvwa
+Jul 17 13:46:21 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 17 13:46:21 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 17 13:46:41 aimlsec sudo:  aimlsec : TTY=pts/2 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/usr/bin/docker containerr ls
+Jul 17 13:46:41 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 17 13:46:41 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 17 13:46:45 aimlsec sudo:  aimlsec : TTY=pts/2 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/usr/bin/docker container ls
+Jul 17 13:46:45 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 17 13:46:45 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 17 13:46:59 aimlsec sudo:  aimlsec : TTY=pts/2 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/usr/bin/docker container ls -a
+Jul 17 13:46:59 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 17 13:46:59 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 17 13:47:17 aimlsec sudo:  aimlsec : TTY=pts/2 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/usr/bin/docker container start netsecframework/metasploitable:vulnstacktwo
+Jul 17 13:47:17 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 17 13:47:18 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 17 13:47:22 aimlsec pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jul 17 13:47:22 aimlsec pkexec[30697]: aimlsec: Executing command [USER=root] [TTY=unknown] [CWD=/home/aimlsec] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Jul 17 13:47:32 aimlsec sudo:  aimlsec : TTY=pts/2 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/usr/sbin/service docker restart
+Jul 17 13:47:32 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 17 13:47:35 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 17 13:47:37 aimlsec sudo:  aimlsec : TTY=pts/2 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/usr/bin/docker container start netsecframework/metasploitable:vulnstacktwo
+Jul 17 13:47:37 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 17 13:47:37 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 17 13:48:54 aimlsec sudo:  aimlsec : TTY=pts/2 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/usr/bin/docker run -d -p 9003:80 jvhoof/badstore-docker
+Jul 17 13:48:54 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 17 13:48:56 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 17 13:49:08 aimlsec sudo:  aimlsec : TTY=pts/2 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/usr/bin/docker cps
+Jul 17 13:49:08 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 17 13:49:08 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 17 13:49:11 aimlsec sudo:  aimlsec : TTY=pts/2 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/usr/bin/docker ps
+Jul 17 13:49:11 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 17 13:49:11 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 17 13:49:21 aimlsec sudo:  aimlsec : TTY=pts/2 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/usr/bin/docker ls
+Jul 17 13:49:21 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 17 13:49:21 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 17 13:49:25 aimlsec sudo:  aimlsec : TTY=pts/2 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/usr/bin/docker container ls
+Jul 17 13:49:25 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 17 13:49:25 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 17 13:50:30 aimlsec sudo:  aimlsec : TTY=pts/2 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/usr/bin/docker run --rm -it -p 9002:80 vulnerables/web-dvwa
+Jul 17 13:50:30 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 17 13:50:42 aimlsec sudo:  aimlsec : TTY=pts/1 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/usr/bin/docker ps
+Jul 17 13:50:42 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 17 13:50:42 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 17 13:50:51 aimlsec sudo:  aimlsec : TTY=pts/1 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/usr/bin/docker ps
+Jul 17 13:50:51 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 17 13:50:51 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 17 13:51:38 aimlsec sudo:  aimlsec : TTY=pts/1 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/usr/bin/docker run -d -p 9000:80 -p 443:443 --name owasp17 bltsec/mutillidae-docker
+Jul 17 13:51:38 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 17 13:51:38 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 17 13:51:54 aimlsec sudo:  aimlsec : TTY=pts/1 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/usr/bin/docker run owasp17
+Jul 17 13:51:54 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 17 13:51:55 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 17 13:51:59 aimlsec sudo:  aimlsec : TTY=pts/1 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/usr/bin/docker start owasp17
+Jul 17 13:51:59 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 17 13:52:00 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 17 13:52:05 aimlsec sudo:  aimlsec : TTY=pts/1 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/usr/bin/docker ps
+Jul 17 13:52:05 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 17 13:52:05 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 17 13:53:02 aimlsec sudo:  aimlsec : TTY=pts/1 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/usr/bin/docker ps
+Jul 17 13:53:02 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 17 13:53:02 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 17 13:54:42 aimlsec sudo:  aimlsec : TTY=pts/1 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/usr/bin/docker ps
+Jul 17 13:54:42 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 17 13:54:42 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 17 13:55:27 aimlsec gdm-password]: gkr-pam: unlocked login keyring
+Jul 17 13:56:39 aimlsec sudo:  aimlsec : TTY=pts/0 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/bin/netstat -tulpn
+Jul 17 13:56:39 aimlsec sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 17 13:56:39 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 17 13:59:49 aimlsec sudo:  aimlsec : TTY=pts/1 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/usr/bin/docker ps
+Jul 17 13:59:49 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 17 13:59:49 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 17 14:00:28 aimlsec sudo:  aimlsec : TTY=pts/1 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/usr/bin/docker exec -it 4f35a533c965 /bin/bash
+Jul 17 14:00:28 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 17 14:03:31 aimlsec sshd[865]: Accepted password for aimlsec from 192.168.3.1 port 39559 ssh2
+Jul 17 14:03:31 aimlsec sshd[865]: pam_unix(sshd:session): session opened for user aimlsec by (uid=0)
+Jul 17 14:03:31 aimlsec systemd-logind[496]: New session 26 of user aimlsec.
+Jul 17 14:03:41 aimlsec sudo:  aimlsec : TTY=pts/3 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/usr/bin/docker ps
+Jul 17 14:03:41 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 17 14:03:41 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 17 14:04:00 aimlsec sudo:  aimlsec : TTY=pts/3 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/usr/bin/docker exec -it 106d0132f009 /bin/bash
+Jul 17 14:04:00 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 17 14:04:22 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 17 14:10:32 aimlsec sudo:  aimlsec : TTY=pts/3 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/usr/bin/docker ps
+Jul 17 14:10:32 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 17 14:10:32 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 17 14:11:57 aimlsec sudo:  aimlsec : TTY=pts/3 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/usr/bin/docker ps
+Jul 17 14:11:57 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 17 14:11:57 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 17 14:12:14 aimlsec sudo:  aimlsec : TTY=pts/3 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/usr/bin/docker stop 4f35a533c965
+Jul 17 14:12:14 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 17 14:12:14 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 17 14:12:28 aimlsec sudo:  aimlsec : TTY=pts/3 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/usr/bin/docker stop bltsec/mutillidae-docker
+Jul 17 14:12:28 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 17 14:12:28 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 17 14:12:43 aimlsec sudo:  aimlsec : TTY=pts/3 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/usr/bin/docker container stop 4f35a533c965
+Jul 17 14:12:43 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 17 14:12:43 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 17 14:12:45 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 17 14:13:20 aimlsec sudo:  aimlsec : TTY=pts/3 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/usr/bin/docker container run -p 80:9000 443:9001 4f35a533c965
+Jul 17 14:13:20 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 17 14:13:21 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 17 14:13:30 aimlsec sudo:  aimlsec : TTY=pts/3 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/usr/bin/docker container run -p 80:9000 4f35a533c965
+Jul 17 14:13:30 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 17 14:13:31 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 17 14:14:09 aimlsec sudo:  aimlsec : TTY=pts/3 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/usr/bin/docker container run -p 9000:80 9001:443 bltsec/mutillidae-docker
+Jul 17 14:14:09 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 17 14:14:10 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 17 14:14:42 aimlsec sudo:  aimlsec : TTY=pts/3 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/usr/bin/docker container run -p 9000:80 -p 9001:443 bltsec/mutillidae-docker
+Jul 17 14:14:42 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 17 14:16:20 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 17 14:16:26 aimlsec sudo:  aimlsec : TTY=pts/3 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/usr/bin/docker container run -p 9000:80 -p 9001:443 -d bltsec/mutillidae-docker
+Jul 17 14:16:26 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 17 14:16:27 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 17 14:16:33 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 17 14:16:43 aimlsec sudo:  aimlsec : TTY=pts/2 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/usr/bin/docker run --rm -it -p 9002:80 -d vulnerables/web-dvwa
+Jul 17 14:16:43 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 17 14:16:44 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 17 14:16:52 aimlsec sudo:  aimlsec : TTY=pts/2 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/usr/bin/docker ps
+Jul 17 14:16:52 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 17 14:16:52 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 17 14:17:01 aimlsec CRON[7287]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 14:17:01 aimlsec CRON[7287]: pam_unix(cron:session): session closed for user root
+Jul 17 14:17:18 aimlsec sudo:  aimlsec : TTY=pts/2 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/usr/bin/docker container stop 106d0132f009
+Jul 17 14:17:18 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 17 14:17:18 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 17 14:17:23 aimlsec sudo:  aimlsec : TTY=pts/2 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/usr/bin/docker ps
+Jul 17 14:17:23 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 17 14:17:23 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 17 14:17:40 aimlsec sudo:  aimlsec : TTY=pts/2 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/usr/bin/docker container stop jvhoof/badstore-docker
+Jul 17 14:17:40 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 17 14:17:40 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 17 14:17:52 aimlsec sudo:  aimlsec : TTY=pts/2 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/usr/bin/docker container stop 106d0132f009
+Jul 17 14:17:52 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 17 14:17:53 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 17 14:18:23 aimlsec sudo:  aimlsec : TTY=pts/2 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/usr/bin/docker run --rm -it -p 9003:80 -d jvhoof/badstore-docker
+Jul 17 14:18:23 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 17 14:18:24 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 17 14:18:28 aimlsec sudo:  aimlsec : TTY=pts/2 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/usr/bin/docker ps
+Jul 17 14:18:28 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 17 14:18:28 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 17 14:19:38 aimlsec sshd[28395]: Received disconnect from 192.168.3.1 port 39422:11: disconnected by user
+Jul 17 14:19:38 aimlsec sshd[28395]: Disconnected from user aimlsec 192.168.3.1 port 39422
+Jul 17 14:19:38 aimlsec sshd[28305]: pam_unix(sshd:session): session closed for user aimlsec
+Jul 17 14:19:38 aimlsec systemd-logind[496]: Removed session 24.
+Jul 17 14:30:29 aimlsec gdm-password]: gkr-pam: unlocked login keyring
+Jul 17 14:32:31 aimlsec sudo:  aimlsec : TTY=pts/2 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/bin/ps aux
+Jul 17 14:32:31 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 17 14:32:31 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 17 14:33:00 aimlsec sudo:  aimlsec : TTY=pts/2 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/usr/sbin/tcpdump -i enp0s3 -w enp0s3-public-wednesday.pcap
+Jul 17 14:33:00 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 17 14:33:05 aimlsec sudo:  aimlsec : TTY=pts/2 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/bin/ps aux
+Jul 17 14:33:05 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 17 14:33:05 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 17 14:33:22 aimlsec sshd[29757]: Received disconnect from 192.168.3.1 port 39442:11: disconnected by user
+Jul 17 14:33:22 aimlsec sshd[29757]: Disconnected from user aimlsec 192.168.3.1 port 39442
+Jul 17 14:33:22 aimlsec sshd[29691]: pam_unix(sshd:session): session closed for user aimlsec
+Jul 17 14:33:28 aimlsec sshd[8459]: Accepted password for aimlsec from 192.168.3.1 port 39899 ssh2
+Jul 17 14:33:28 aimlsec sshd[8459]: pam_unix(sshd:session): session opened for user aimlsec by (uid=0)
+Jul 17 14:33:28 aimlsec systemd-logind[496]: New session 28 of user aimlsec.
+Jul 17 14:33:37 aimlsec sshd[8542]: Received disconnect from 192.168.3.1 port 39899:11: disconnected by user
+Jul 17 14:33:37 aimlsec sshd[8542]: Disconnected from user aimlsec 192.168.3.1 port 39899
+Jul 17 14:33:37 aimlsec sshd[8459]: pam_unix(sshd:session): session closed for user aimlsec
+Jul 17 14:33:37 aimlsec systemd-logind[496]: Removed session 28.
+Jul 17 14:38:26 aimlsec sudo:  aimlsec : TTY=pts/0 ; PWD=/home/aimlsec/Downloads/php-reverse-shell-1.0 ; USER=root ; COMMAND=/bin/cp php-reverse-shell.php /var/www/html/
+Jul 17 14:38:26 aimlsec sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 17 14:38:26 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 17 14:39:02 aimlsec sudo:  aimlsec : TTY=pts/0 ; PWD=/home/aimlsec/Downloads/php-reverse-shell-1.0 ; USER=root ; COMMAND=/usr/sbin/service apache2 start
+Jul 17 14:39:02 aimlsec sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 17 14:39:04 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 17 14:40:18 aimlsec sudo:  aimlsec : TTY=pts/0 ; PWD=/var/www/html ; USER=root ; COMMAND=/usr/bin/vim php-reverse-shell.php
+Jul 17 14:40:18 aimlsec sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 17 14:40:30 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 17 14:41:21 aimlsec sudo:  aimlsec : TTY=pts/0 ; PWD=/var/www/html ; USER=root ; COMMAND=/bin/nc -v -n -l -p 8080
+Jul 17 14:41:21 aimlsec sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 17 14:41:21 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 17 14:41:24 aimlsec sudo:  aimlsec : TTY=pts/0 ; PWD=/var/www/html ; USER=root ; COMMAND=/bin/nc -v -n -l -p 8081
+Jul 17 14:41:24 aimlsec sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 17 14:41:25 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 17 14:41:38 aimlsec sudo:  aimlsec : TTY=pts/0 ; PWD=/var/www/html ; USER=root ; COMMAND=/usr/bin/vim index.php
+Jul 17 14:41:38 aimlsec sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 17 14:41:41 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 17 14:41:59 aimlsec sudo:  aimlsec : TTY=pts/0 ; PWD=/var/www/html ; USER=root ; COMMAND=/bin/mv php-reverse-shell.php shell.php
+Jul 17 14:41:59 aimlsec sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 17 14:41:59 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 17 14:42:16 aimlsec sudo:  aimlsec : TTY=pts/0 ; PWD=/var/www/html ; USER=root ; COMMAND=/usr/bin/vim shell.php
+Jul 17 14:42:16 aimlsec sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 17 14:42:24 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 17 14:42:31 aimlsec sudo:  aimlsec : TTY=pts/0 ; PWD=/var/www/html ; USER=root ; COMMAND=/bin/nc -v -n -l -p 8081
+Jul 17 14:42:31 aimlsec sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 17 14:42:44 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 17 14:42:53 aimlsec sudo:  aimlsec : TTY=pts/0 ; PWD=/var/www/html ; USER=root ; COMMAND=/bin/nc -v -n -l -p 8081
+Jul 17 14:42:53 aimlsec sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 17 14:46:34 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 17 15:17:01 aimlsec CRON[9951]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 15:17:01 aimlsec CRON[9951]: pam_unix(cron:session): session closed for user root
+Jul 17 15:33:02 aimlsec sshd[10408]: Accepted password for aimlsec from 192.168.3.34 port 52238 ssh2
+Jul 17 15:33:02 aimlsec sshd[10408]: pam_unix(sshd:session): session opened for user aimlsec by (uid=0)
+Jul 17 15:33:02 aimlsec systemd-logind[496]: New session 30 of user aimlsec.
+Jul 17 15:33:03 aimlsec sshd[10496]: Received disconnect from 192.168.3.34 port 52238:11: disconnected by user
+Jul 17 15:33:03 aimlsec sshd[10496]: Disconnected from user aimlsec 192.168.3.34 port 52238
+Jul 17 15:33:03 aimlsec sshd[10408]: pam_unix(sshd:session): session closed for user aimlsec
+Jul 17 15:33:03 aimlsec systemd-logind[496]: Removed session 30.
+Jul 17 15:33:15 aimlsec sshd[10499]: Accepted password for aimlsec from 192.168.3.34 port 52240 ssh2
+Jul 17 15:33:15 aimlsec sshd[10499]: pam_unix(sshd:session): session opened for user aimlsec by (uid=0)
+Jul 17 15:33:15 aimlsec systemd-logind[496]: New session 31 of user aimlsec.
+Jul 17 15:33:15 aimlsec sshd[10564]: Received disconnect from 192.168.3.34 port 52240:11: disconnected by user
+Jul 17 15:33:15 aimlsec sshd[10564]: Disconnected from user aimlsec 192.168.3.34 port 52240
+Jul 17 15:33:15 aimlsec sshd[10499]: pam_unix(sshd:session): session closed for user aimlsec
+Jul 17 15:33:15 aimlsec systemd-logind[496]: Removed session 31.
+Jul 17 15:35:54 aimlsec sshd[10648]: Accepted password for aimlsec from 192.168.3.1 port 40215 ssh2
+Jul 17 15:35:54 aimlsec sshd[10648]: pam_unix(sshd:session): session opened for user aimlsec by (uid=0)
+Jul 17 15:35:54 aimlsec systemd-logind[496]: New session 32 of user aimlsec.
+Jul 17 15:36:14 aimlsec sshd[10713]: Received disconnect from 192.168.3.1 port 40215:11: disconnected by user
+Jul 17 15:36:14 aimlsec sshd[10713]: Disconnected from user aimlsec 192.168.3.1 port 40215
+Jul 17 15:36:14 aimlsec sshd[10648]: pam_unix(sshd:session): session closed for user aimlsec
+Jul 17 15:36:14 aimlsec systemd-logind[496]: Removed session 32.
+Jul 17 16:17:01 aimlsec CRON[12002]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 16:17:01 aimlsec CRON[12002]: pam_unix(cron:session): session closed for user root
+Jul 17 17:17:01 aimlsec CRON[13538]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 17:17:01 aimlsec CRON[13538]: pam_unix(cron:session): session closed for user root
+Jul 17 17:21:10 aimlsec gdm-password]: gkr-pam: unlocked login keyring
+Jul 17 17:44:37 aimlsec gdm-password]: gkr-pam: unlocked login keyring
+Jul 17 17:47:20 aimlsec sudo:  aimlsec : TTY=pts/0 ; PWD=/home/aimlsec/apt/.git ; USER=root ; COMMAND=/bin/chown -R aimlsec:aimlsec COMMIT_EDITMSG
+Jul 17 17:47:20 aimlsec sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 17 17:47:20 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 17 18:11:43 aimlsec gdm-password]: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/tty2 ruser= rhost=  user=aimlsec
+Jul 17 18:12:55 aimlsec gdm-password]: gkr-pam: unlocked login keyring
+Jul 17 18:17:01 aimlsec CRON[15584]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 18:17:01 aimlsec CRON[15584]: pam_unix(cron:session): session closed for user root
+Jul 17 18:26:37 aimlsec sudo:  aimlsec : TTY=pts/3 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/usr/bin/docker ls
+Jul 17 18:26:37 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 17 18:26:38 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 17 18:26:42 aimlsec sudo:  aimlsec : TTY=pts/3 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/usr/bin/docker container ls
+Jul 17 18:26:42 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 17 18:26:43 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 17 18:26:53 aimlsec sudo:  aimlsec : TTY=pts/3 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/usr/bin/docker container ls -a
+Jul 17 18:26:53 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 17 18:26:53 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 17 18:49:26 aimlsec gdm-password]: gkr-pam: unlocked login keyring
+Jul 17 19:03:52 aimlsec gdm-password]: gkr-pam: unlocked login keyring
+Jul 17 19:17:01 aimlsec CRON[17982]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 19:17:01 aimlsec CRON[17982]: pam_unix(cron:session): session closed for user root
+Jul 17 20:00:05 aimlsec gdm-password]: gkr-pam: unlocked login keyring
+Jul 17 20:10:16 aimlsec gdm-password]: gkr-pam: unlocked login keyring
+Jul 17 20:17:01 aimlsec CRON[20307]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 20:17:01 aimlsec CRON[20307]: pam_unix(cron:session): session closed for user root
+Jul 17 21:12:26 aimlsec gdm-password]: gkr-pam: unlocked login keyring
+Jul 17 21:17:01 aimlsec CRON[21911]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 21:17:01 aimlsec CRON[21911]: pam_unix(cron:session): session closed for user root
+Jul 17 22:01:55 aimlsec sshd[23149]: Accepted password for aimlsec from 192.168.3.1 port 42738 ssh2
+Jul 17 22:01:55 aimlsec sshd[23149]: pam_unix(sshd:session): session opened for user aimlsec by (uid=0)
+Jul 17 22:01:55 aimlsec systemd-logind[496]: New session 39 of user aimlsec.
+Jul 17 22:02:59 aimlsec sudo:  aimlsec : TTY=pts/1 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/usr/bin/dpkg -i freesweep.deb
+Jul 17 22:02:59 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 17 22:03:00 aimlsec sudo:     root : TTY=pts/1 ; PWD=/ ; USER=root ; COMMAND=/bin/chmod 2755 /usr/games/freesweep_scores
+Jul 17 22:03:00 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 17 22:03:00 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 17 22:03:03 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 17 22:03:03 aimlsec gdm-password]: pam_unix(gdm-password:auth): conversation failed
+Jul 17 22:03:03 aimlsec gdm-password]: pam_unix(gdm-password:auth): auth could not identify password for [aimlsec]
+Jul 17 22:03:12 aimlsec gdm-password]: gkr-pam: unlocked login keyring
+Jul 17 22:03:22 aimlsec sshd[23238]: Received disconnect from 192.168.3.1 port 42738:11: disconnected by user
+Jul 17 22:03:22 aimlsec sshd[23238]: Disconnected from user aimlsec 192.168.3.1 port 42738
+Jul 17 22:03:22 aimlsec sshd[23149]: pam_unix(sshd:session): session closed for user aimlsec
+Jul 17 22:06:06 aimlsec sshd[23382]: Accepted password for aimlsec from 192.168.3.1 port 42773 ssh2
+Jul 17 22:06:06 aimlsec sshd[23382]: pam_unix(sshd:session): session opened for user aimlsec by (uid=0)
+Jul 17 22:06:06 aimlsec systemd-logind[496]: New session 40 of user aimlsec.
+Jul 17 22:06:13 aimlsec sudo: pam_unix(sudo:auth): authentication failure; logname= uid=1000 euid=0 tty=/dev/pts/0 ruser=aimlsec rhost=  user=aimlsec
+Jul 17 22:06:33 aimlsec sshd[23456]: Received disconnect from 192.168.3.1 port 42773:11: disconnected by user
+Jul 17 22:06:33 aimlsec sshd[23456]: Disconnected from user aimlsec 192.168.3.1 port 42773
+Jul 17 22:06:33 aimlsec sshd[23382]: pam_unix(sshd:session): session closed for user aimlsec
+Jul 17 22:06:33 aimlsec systemd-logind[496]: Removed session 40.
+Jul 17 22:07:06 aimlsec sudo:  aimlsec : 3 incorrect password attempts ; TTY=pts/0 ; PWD=/home/aimlsec/Downloads ; USER=root ; COMMAND=dpkg-i freesweep.deb
+Jul 17 22:10:17 aimlsec sudo:  aimlsec : TTY=pts/0 ; PWD=/home/aimlsec/Downloads ; USER=root ; COMMAND=/usr/bin/dpkg -i freesweep.deb
+Jul 17 22:10:17 aimlsec sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 17 22:10:18 aimlsec sudo:     root : TTY=pts/0 ; PWD=/ ; USER=root ; COMMAND=/bin/chmod 2755 /usr/games/freesweep_scores
+Jul 17 22:10:18 aimlsec sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 17 22:10:18 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 17 22:10:19 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 17 22:17:01 aimlsec CRON[24067]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 22:17:01 aimlsec CRON[24067]: pam_unix(cron:session): session closed for user root
+Jul 17 22:18:32 aimlsec sudo:  aimlsec : TTY=pts/4 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/usr/bin/dpkg -i freesweep.deb.1
+Jul 17 22:18:32 aimlsec sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 17 22:18:33 aimlsec sudo:     root : TTY=pts/4 ; PWD=/ ; USER=root ; COMMAND=/bin/chmod 2755 /usr/games/freesweep_scores
+Jul 17 22:18:33 aimlsec sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 17 22:18:33 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 17 22:18:35 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 17 22:27:52 aimlsec sshd[24484]: Accepted password for aimlsec from 192.168.3.1 port 42974 ssh2
+Jul 17 22:27:52 aimlsec sshd[24484]: pam_unix(sshd:session): session opened for user aimlsec by (uid=0)
+Jul 17 22:27:52 aimlsec systemd-logind[496]: New session 42 of user aimlsec.
+Jul 17 22:29:45 aimlsec sshd[24552]: Received disconnect from 192.168.3.1 port 42974:11: disconnected by user
+Jul 17 22:29:45 aimlsec sshd[24552]: Disconnected from user aimlsec 192.168.3.1 port 42974
+Jul 17 22:29:45 aimlsec sshd[24484]: pam_unix(sshd:session): session closed for user aimlsec
+Jul 17 22:29:45 aimlsec systemd-logind[496]: Removed session 42.
+Jul 17 22:37:38 aimlsec sshd[24769]: Connection closed by authenticating user aimlsec 192.168.3.1 port 43094 [preauth]
+Jul 17 22:44:21 aimlsec sshd[24918]: Accepted password for aimlsec from 192.168.3.1 port 43176 ssh2
+Jul 17 22:44:21 aimlsec sshd[24918]: pam_unix(sshd:session): session opened for user aimlsec by (uid=0)
+Jul 17 22:44:21 aimlsec systemd-logind[496]: New session 43 of user aimlsec.
+Jul 17 22:45:33 aimlsec sudo:  aimlsec : TTY=pts/5 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/bin/kill -9 8433
+Jul 17 22:45:33 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 17 22:45:33 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 17 22:45:37 aimlsec sudo:  aimlsec : TTY=pts/5 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/bin/kill -9 8434
+Jul 17 22:45:37 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 17 22:45:37 aimlsec systemd-logind[496]: Removed session 25.
+Jul 17 22:45:37 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 17 22:45:59 aimlsec sshd[24982]: Received disconnect from 192.168.3.1 port 43176:11: disconnected by user
+Jul 17 22:45:59 aimlsec sshd[24982]: Disconnected from user aimlsec 192.168.3.1 port 43176
+Jul 17 22:45:59 aimlsec sshd[24918]: pam_unix(sshd:session): session closed for user aimlsec
+Jul 17 22:45:59 aimlsec systemd-logind[496]: Removed session 43.
+Jul 17 22:48:01 aimlsec sshd[25106]: Accepted password for aimlsec from 192.168.3.30 port 54468 ssh2
+Jul 17 22:48:01 aimlsec sshd[25106]: pam_unix(sshd:session): session opened for user aimlsec by (uid=0)
+Jul 17 22:48:01 aimlsec systemd-logind[496]: New session 44 of user aimlsec.
+Jul 17 22:48:51 aimlsec sshd[25172]: Received disconnect from 192.168.3.30 port 54468:11: disconnected by user
+Jul 17 22:48:51 aimlsec sshd[25172]: Disconnected from user aimlsec 192.168.3.30 port 54468
+Jul 17 22:48:51 aimlsec sshd[25106]: pam_unix(sshd:session): session closed for user aimlsec
+Jul 17 22:48:51 aimlsec systemd-logind[496]: Removed session 44.
+Jul 17 22:49:14 aimlsec sshd[25222]: Accepted password for aimlsec from 192.168.3.1 port 43238 ssh2
+Jul 17 22:49:14 aimlsec sshd[25222]: pam_unix(sshd:session): session opened for user aimlsec by (uid=0)
+Jul 17 22:49:14 aimlsec systemd-logind[496]: New session 45 of user aimlsec.
+Jul 17 23:17:01 aimlsec CRON[25861]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 23:17:01 aimlsec CRON[25861]: pam_unix(cron:session): session closed for user root
+Jul 17 23:18:10 aimlsec sshd[25286]: Received disconnect from 192.168.3.1 port 43238:11: disconnected by user
+Jul 17 23:18:10 aimlsec sshd[25286]: Disconnected from user aimlsec 192.168.3.1 port 43238
+Jul 17 23:18:10 aimlsec sshd[25222]: pam_unix(sshd:session): session closed for user aimlsec
+Jul 17 23:18:10 aimlsec systemd-logind[496]: Removed session 45.
+Jul 18 00:17:01 aimlsec CRON[27497]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 00:17:01 aimlsec CRON[27497]: pam_unix(cron:session): session closed for user root
+Jul 18 01:17:01 aimlsec CRON[28883]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 01:17:01 aimlsec CRON[28883]: pam_unix(cron:session): session closed for user root
+Jul 18 01:50:01 aimlsec CRON[29489]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 01:50:01 aimlsec CRON[29489]: pam_unix(cron:session): session closed for user root
+Jul 18 02:17:01 aimlsec CRON[30050]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 02:17:01 aimlsec CRON[30050]: pam_unix(cron:session): session closed for user root
+Jul 18 03:17:01 aimlsec CRON[31161]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 03:17:01 aimlsec CRON[31161]: pam_unix(cron:session): session closed for user root
+Jul 18 04:17:01 aimlsec CRON[32280]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 04:17:01 aimlsec CRON[32280]: pam_unix(cron:session): session closed for user root
+Jul 18 05:17:01 aimlsec CRON[851]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 05:17:01 aimlsec CRON[851]: pam_unix(cron:session): session closed for user root
+Jul 18 06:17:01 aimlsec CRON[2391]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 06:17:01 aimlsec CRON[2391]: pam_unix(cron:session): session closed for user root
+Jul 18 06:25:01 aimlsec CRON[2562]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 06:25:01 aimlsec CRON[2562]: pam_unix(cron:session): session closed for user root
+Jul 18 07:17:01 aimlsec CRON[4189]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 07:17:01 aimlsec CRON[4189]: pam_unix(cron:session): session closed for user root
+Jul 18 07:30:01 aimlsec CRON[4470]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 07:30:01 aimlsec CRON[4470]: pam_unix(cron:session): session closed for user root
+Jul 18 08:17:01 aimlsec CRON[5312]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 08:17:01 aimlsec CRON[5312]: pam_unix(cron:session): session closed for user root
+Jul 18 09:17:01 aimlsec CRON[6418]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 09:17:01 aimlsec CRON[6418]: pam_unix(cron:session): session closed for user root
+Jul 18 10:17:01 aimlsec CRON[7690]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 10:17:01 aimlsec CRON[7690]: pam_unix(cron:session): session closed for user root
+Jul 18 11:03:14 aimlsec sshd[934]: Received disconnect from 192.168.3.1 port 39559:11: disconnected by user
+Jul 18 11:03:14 aimlsec sshd[934]: Disconnected from user aimlsec 192.168.3.1 port 39559
+Jul 18 11:03:14 aimlsec sshd[865]: pam_unix(sshd:session): session closed for user aimlsec
+Jul 18 11:03:14 aimlsec systemd-logind[496]: Removed session 26.
+Jul 18 11:17:01 aimlsec CRON[8935]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 11:17:01 aimlsec CRON[8935]: pam_unix(cron:session): session closed for user root
+Jul 18 11:31:53 aimlsec sshd[9214]: Accepted password for aimlsec from 192.168.3.1 port 51378 ssh2
+Jul 18 11:31:53 aimlsec sshd[9214]: pam_unix(sshd:session): session opened for user aimlsec by (uid=0)
+Jul 18 11:31:53 aimlsec systemd-logind[496]: New session 62 of user aimlsec.
+Jul 18 11:32:32 aimlsec sudo:  aimlsec : TTY=pts/2 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/bin/ps aux
+Jul 18 11:32:32 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 18 11:32:33 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 18 11:32:46 aimlsec sudo:  aimlsec : TTY=pts/2 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/bin/ps aux
+Jul 18 11:32:46 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 18 11:32:46 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 18 11:32:54 aimlsec sudo:  aimlsec : TTY=pts/2 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/bin/kill 9313
+Jul 18 11:32:54 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 18 11:32:54 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 18 11:32:57 aimlsec sudo:  aimlsec : TTY=pts/2 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/usr/sbin/tcpdump -i enp0s3 -w enp0s3-public-thursday.pcap
+Jul 18 11:32:57 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 18 12:17:01 aimlsec CRON[10251]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 12:17:01 aimlsec CRON[10251]: pam_unix(cron:session): session closed for user root
+Jul 18 12:47:36 aimlsec sudo:  aimlsec : TTY=pts/2 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/usr/bin/nmap 192.168.3.30
+Jul 18 12:47:36 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 18 12:48:06 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 18 13:17:01 aimlsec CRON[11299]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 13:17:01 aimlsec CRON[11299]: pam_unix(cron:session): session closed for user root
+Jul 18 14:17:01 aimlsec CRON[12457]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 14:17:01 aimlsec CRON[12457]: pam_unix(cron:session): session closed for user root
+Jul 18 14:26:39 aimlsec gdm-password]: gkr-pam: unlocked login keyring
+Jul 18 14:35:54 aimlsec sudo:  aimlsec : TTY=pts/2 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/usr/sbin/service filebeat status
+Jul 18 14:35:54 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 18 14:35:59 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 18 14:36:08 aimlsec sudo:  aimlsec : TTY=pts/2 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/usr/bin/tail -f /var/log/syslog
+Jul 18 14:36:08 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 18 14:36:21 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 18 14:38:56 aimlsec sshd[9304]: Received disconnect from 192.168.3.1 port 51378:11: disconnected by user
+Jul 18 14:38:56 aimlsec sshd[9304]: Disconnected from user aimlsec 192.168.3.1 port 51378
+Jul 18 14:38:56 aimlsec sshd[9214]: pam_unix(sshd:session): session closed for user aimlsec
+Jul 18 14:38:56 aimlsec sudo: pam_unix(sudo:auth): conversation failed
+Jul 18 14:38:56 aimlsec sudo: pam_unix(sudo:auth): auth could not identify password for [aimlsec]
+Jul 18 14:41:06 aimlsec pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jul 18 14:41:06 aimlsec pkexec[13340]: aimlsec: Executing command [USER=root] [TTY=unknown] [CWD=/home/aimlsec] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Jul 18 14:44:35 aimlsec sshd[13374]: Accepted password for aimlsec from 192.168.3.1 port 52206 ssh2
+Jul 18 14:44:35 aimlsec sshd[13374]: pam_unix(sshd:session): session opened for user aimlsec by (uid=0)
+Jul 18 14:44:35 aimlsec systemd-logind[496]: New session 66 of user aimlsec.
+Jul 18 14:44:59 aimlsec sudo:  aimlsec : TTY=pts/3 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/usr/bin/apt-get install mysql
+Jul 18 14:44:59 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 18 14:45:01 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 18 14:45:04 aimlsec sudo:  aimlsec : TTY=pts/3 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/usr/bin/apt-get install mysql-server
+Jul 18 14:45:04 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 18 14:45:30 aimlsec groupadd[13639]: group added to /etc/group: name=mysql, GID=127
+Jul 18 14:45:30 aimlsec groupadd[13639]: group added to /etc/gshadow: name=mysql
+Jul 18 14:45:30 aimlsec groupadd[13639]: new group: name=mysql, GID=127
+Jul 18 14:45:30 aimlsec useradd[13645]: new user: name=mysql, UID=123, GID=127, home=/nonexistent, shell=/bin/false
+Jul 18 14:45:30 aimlsec chage[13651]: changed password expiry for mysql
+Jul 18 14:45:30 aimlsec chfn[13654]: changed user 'mysql' information
+Jul 18 14:53:24 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 18 14:54:36 aimlsec pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jul 18 14:54:36 aimlsec pkexec[15548]: aimlsec: Executing command [USER=root] [TTY=unknown] [CWD=/home/aimlsec] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Jul 18 15:17:01 aimlsec CRON[16173]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 15:17:01 aimlsec CRON[16173]: pam_unix(cron:session): session closed for user root
+Jul 18 16:10:41 aimlsec gdm-password]: gkr-pam: unlocked login keyring
+Jul 18 16:17:01 aimlsec CRON[17572]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 16:17:01 aimlsec CRON[17572]: pam_unix(cron:session): session closed for user root
+Jul 18 17:17:01 aimlsec CRON[18592]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 17:17:01 aimlsec CRON[18592]: pam_unix(cron:session): session closed for user root
+Jul 18 17:29:14 aimlsec gdm-password]: gkr-pam: unlocked login keyring
+Jul 18 17:53:27 aimlsec sudo:  aimlsec : TTY=pts/3 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/usr/bin/find / -perm -u=s -type f 2
+Jul 18 17:53:27 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 18 17:53:27 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 18 17:53:30 aimlsec sudo:  aimlsec : TTY=pts/3 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/usr/bin/find / -perm -u=s -type f2
+Jul 18 17:53:30 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 18 17:53:30 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 18 18:06:22 aimlsec sudo:  aimlsec : TTY=pts/3 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/bin/cat /etc/sudoers
+Jul 18 18:06:22 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 18 18:06:22 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 18 18:06:27 aimlsec sudo:  aimlsec : TTY=pts/3 ; PWD=/home/aimlsec ; USER=root ; COMMAND=list
+Jul 18 18:11:00 aimlsec gdm-password]: gkr-pam: unlocked login keyring
+Jul 18 18:17:01 aimlsec CRON[19988]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 18:17:01 aimlsec CRON[19988]: pam_unix(cron:session): session closed for user root
+Jul 18 18:28:39 aimlsec sshd[20174]: Connection closed by 192.168.3.1 port 53695 [preauth]
+Jul 18 19:04:21 aimlsec gdm-password]: gkr-pam: unlocked login keyring
+Jul 18 19:15:36 aimlsec gdm-password]: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/tty2 ruser= rhost=  user=aimlsec
+Jul 18 19:15:41 aimlsec gdm-password]: gkr-pam: unlocked login keyring
+Jul 18 19:17:01 aimlsec CRON[21396]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 19:17:01 aimlsec CRON[21396]: pam_unix(cron:session): session closed for user root
+Jul 18 19:38:28 aimlsec gdm-password]: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/tty2 ruser= rhost=  user=aimlsec
+Jul 18 19:38:36 aimlsec gdm-password]: gkr-pam: unlocked login keyring
+Jul 18 20:17:01 aimlsec CRON[23341]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 20:17:01 aimlsec CRON[23341]: pam_unix(cron:session): session closed for user root
+Jul 18 21:15:11 aimlsec gdm-password]: gkr-pam: unlocked login keyring
+Jul 18 21:17:01 aimlsec CRON[24945]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 21:17:01 aimlsec CRON[24945]: pam_unix(cron:session): session closed for user root
+Jul 18 21:19:22 aimlsec sshd[25042]: Invalid user ubuntu from 192.168.3.1 port 54560
+Jul 18 21:19:29 aimlsec sshd[25042]: pam_unix(sshd:auth): check pass; user unknown
+Jul 18 21:19:29 aimlsec sshd[25042]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.3.1
+Jul 18 21:19:32 aimlsec sshd[25042]: Failed password for invalid user ubuntu from 192.168.3.1 port 54560 ssh2
+Jul 18 21:19:35 aimlsec sshd[25042]: Connection closed by invalid user ubuntu 192.168.3.1 port 54560 [preauth]
+Jul 18 21:21:31 aimlsec sshd[25128]: Accepted password for aimlsec from 192.168.3.1 port 54576 ssh2
+Jul 18 21:21:31 aimlsec sshd[25128]: pam_unix(sshd:session): session opened for user aimlsec by (uid=0)
+Jul 18 21:21:31 aimlsec systemd-logind[496]: New session 74 of user aimlsec.
+Jul 18 21:21:58 aimlsec sudo:  aimlsec : TTY=pts/7 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/usr/bin/docker ps
+Jul 18 21:21:58 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 18 21:21:59 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 18 21:22:50 aimlsec sudo:  aimlsec : TTY=pts/7 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/usr/bin/docker exec -it 040e742efe2f /bin/bash
+Jul 18 21:22:50 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 18 21:24:57 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 18 21:24:59 aimlsec sudo:  aimlsec : TTY=pts/7 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/usr/bin/docker ps
+Jul 18 21:24:59 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 18 21:25:00 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 18 21:25:49 aimlsec sudo:  aimlsec : TTY=pts/7 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/bin/netstat -tulpn
+Jul 18 21:25:49 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 18 21:25:49 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 18 21:26:18 aimlsec sudo:  aimlsec : TTY=pts/7 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/bin/netstat -tulpn
+Jul 18 21:26:19 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 18 21:26:19 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 18 21:26:23 aimlsec sudo:  aimlsec : TTY=pts/7 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/bin/netstat -tulpn
+Jul 18 21:26:23 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 18 21:26:24 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 18 21:26:38 aimlsec sshd[25241]: Received disconnect from 192.168.3.1 port 54576:11: disconnected by user
+Jul 18 21:26:38 aimlsec sshd[25241]: Disconnected from user aimlsec 192.168.3.1 port 54576
+Jul 18 21:26:38 aimlsec sshd[25128]: pam_unix(sshd:session): session closed for user aimlsec
+Jul 18 21:26:38 aimlsec systemd-logind[496]: Removed session 74.
+Jul 18 21:27:41 aimlsec sshd[26399]: Accepted password for aimlsec from 192.168.3.1 port 54619 ssh2
+Jul 18 21:27:41 aimlsec sshd[26399]: pam_unix(sshd:session): session opened for user aimlsec by (uid=0)
+Jul 18 21:27:41 aimlsec systemd-logind[496]: New session 75 of user aimlsec.
+Jul 18 21:31:20 aimlsec sudo:  aimlsec : TTY=pts/7 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/bin/ps aux
+Jul 18 21:31:20 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 18 21:31:20 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 18 21:31:29 aimlsec sudo:  aimlsec : TTY=pts/7 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/bin/kill 9324
+Jul 18 21:31:29 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 18 21:31:29 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 18 21:31:29 aimlsec systemd-logind[496]: Removed session 62.
+Jul 18 21:31:29 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 18 21:31:32 aimlsec sudo:  aimlsec : TTY=pts/7 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/bin/kill 9325
+Jul 18 21:31:32 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 18 21:31:32 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 18 21:31:36 aimlsec sudo:  aimlsec : TTY=pts/7 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/bin/ps aux
+Jul 18 21:31:36 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 18 21:31:36 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 18 21:32:03 aimlsec sshd[26464]: Received disconnect from 192.168.3.1 port 54619:11: disconnected by user
+Jul 18 21:32:03 aimlsec sshd[26464]: Disconnected from user aimlsec 192.168.3.1 port 54619
+Jul 18 21:32:03 aimlsec sshd[26399]: pam_unix(sshd:session): session closed for user aimlsec
+Jul 18 21:32:03 aimlsec systemd-logind[496]: Removed session 75.
+Jul 18 21:37:42 aimlsec sshd[27147]: Accepted password for aimlsec from 192.168.3.30 port 54748 ssh2
+Jul 18 21:37:42 aimlsec sshd[27147]: pam_unix(sshd:session): session opened for user aimlsec by (uid=0)
+Jul 18 21:37:42 aimlsec systemd-logind[496]: New session 76 of user aimlsec.
+Jul 18 21:38:29 aimlsec sshd[27223]: Accepted password for aimlsec from 192.168.3.1 port 54690 ssh2
+Jul 18 21:38:29 aimlsec sshd[27223]: pam_unix(sshd:session): session opened for user aimlsec by (uid=0)
+Jul 18 21:38:29 aimlsec systemd-logind[496]: New session 77 of user aimlsec.
+Jul 18 21:45:32 aimlsec sshd[28014]: Accepted password for aimlsec from 192.168.3.1 port 54736 ssh2
+Jul 18 21:45:32 aimlsec sshd[28014]: pam_unix(sshd:session): session opened for user aimlsec by (uid=0)
+Jul 18 21:45:32 aimlsec systemd-logind[496]: New session 78 of user aimlsec.
+Jul 18 21:46:12 aimlsec sshd[27291]: Received disconnect from 192.168.3.1 port 54690:11: disconnected by user
+Jul 18 21:46:17 aimlsec systemd-logind[496]: Removed session 77.
+Jul 18 21:46:17 aimlsec sshd[27291]: Disconnected from user aimlsec 192.168.3.1 port 54690
+Jul 18 21:46:17 aimlsec systemd-logind[496]: Removed session 78.
+Jul 18 21:46:17 aimlsec sshd[27223]: pam_unix(sshd:session): session closed for user aimlsec
+Jul 18 21:46:17 aimlsec sshd[28157]: Received disconnect from 192.168.3.1 port 54736:11: disconnected by user
+Jul 18 21:46:17 aimlsec sshd[28157]: Disconnected from user aimlsec 192.168.3.1 port 54736
+Jul 18 21:46:17 aimlsec sshd[28014]: pam_unix(sshd:session): session closed for user aimlsec
+Jul 18 21:46:26 aimlsec sshd[28192]: Invalid user hacker from 192.168.3.1 port 54743
+Jul 18 21:46:29 aimlsec sshd[28192]: pam_unix(sshd:auth): check pass; user unknown
+Jul 18 21:46:29 aimlsec sshd[28192]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.3.1
+Jul 18 21:46:31 aimlsec sshd[28192]: Failed password for invalid user hacker from 192.168.3.1 port 54743 ssh2
+Jul 18 21:46:35 aimlsec sshd[28192]: pam_unix(sshd:auth): check pass; user unknown
+Jul 18 21:46:35 aimlsec sshd[28196]: Accepted password for aimlsec from 192.168.3.1 port 54745 ssh2
+Jul 18 21:46:35 aimlsec sshd[28196]: pam_unix(sshd:session): session opened for user aimlsec by (uid=0)
+Jul 18 21:46:35 aimlsec systemd-logind[496]: New session 79 of user aimlsec.
+Jul 18 21:46:37 aimlsec sshd[28192]: Failed password for invalid user hacker from 192.168.3.1 port 54743 ssh2
+Jul 18 21:46:39 aimlsec sshd[28192]: pam_unix(sshd:auth): check pass; user unknown
+Jul 18 21:46:41 aimlsec sshd[28192]: Failed password for invalid user hacker from 192.168.3.1 port 54743 ssh2
+Jul 18 21:46:41 aimlsec sshd[28192]: Connection closed by invalid user hacker 192.168.3.1 port 54743 [preauth]
+Jul 18 21:46:41 aimlsec sshd[28192]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.3.1
+Jul 18 21:46:50 aimlsec sshd[28375]: Invalid user invader from 192.168.3.1 port 54746
+Jul 18 21:46:54 aimlsec sshd[28375]: pam_unix(sshd:auth): check pass; user unknown
+Jul 18 21:46:54 aimlsec sshd[28375]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.3.1
+Jul 18 21:46:56 aimlsec sshd[28375]: Failed password for invalid user invader from 192.168.3.1 port 54746 ssh2
+Jul 18 21:46:59 aimlsec sshd[28375]: pam_unix(sshd:auth): check pass; user unknown
+Jul 18 21:47:01 aimlsec sshd[28375]: Failed password for invalid user invader from 192.168.3.1 port 54746 ssh2
+Jul 18 21:47:03 aimlsec sshd[28375]: pam_unix(sshd:auth): check pass; user unknown
+Jul 18 21:47:05 aimlsec sshd[28375]: Failed password for invalid user invader from 192.168.3.1 port 54746 ssh2
+Jul 18 21:47:05 aimlsec sshd[28375]: Connection closed by invalid user invader 192.168.3.1 port 54746 [preauth]
+Jul 18 21:47:05 aimlsec sshd[28375]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.3.1
+Jul 18 21:47:41 aimlsec sshd[28820]: Accepted password for aimlsec from 192.168.3.1 port 54754 ssh2
+Jul 18 21:47:41 aimlsec sshd[28820]: pam_unix(sshd:session): session opened for user aimlsec by (uid=0)
+Jul 18 21:47:41 aimlsec systemd-logind[496]: New session 80 of user aimlsec.
+Jul 18 21:52:02 aimlsec sudo:  aimlsec : TTY=pts/7 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/bin/bash
+Jul 18 21:52:02 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 18 21:54:16 aimlsec sshd[27213]: Received disconnect from 192.168.3.30 port 54748:11: disconnected by user
+Jul 18 21:54:16 aimlsec systemd-logind[496]: Removed session 76.
+Jul 18 21:54:16 aimlsec sshd[27213]: Disconnected from user aimlsec 192.168.3.30 port 54748
+Jul 18 21:54:16 aimlsec sshd[27147]: pam_unix(sshd:session): session closed for user aimlsec
+Jul 18 22:03:23 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 18 22:03:28 aimlsec sshd[29166]: Received disconnect from 192.168.3.1 port 54754:11: disconnected by user
+Jul 18 22:03:28 aimlsec systemd-logind[496]: Removed session 80.
+Jul 18 22:03:28 aimlsec sshd[29166]: Disconnected from user aimlsec 192.168.3.1 port 54754
+Jul 18 22:03:28 aimlsec sshd[28820]: pam_unix(sshd:session): session closed for user aimlsec
+Jul 18 22:17:01 aimlsec CRON[1600]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 22:17:01 aimlsec CRON[1600]: pam_unix(cron:session): session closed for user root
+Jul 18 22:25:44 aimlsec sshd[28266]: Received disconnect from 192.168.3.1 port 54745:11: disconnected by user
+Jul 18 22:25:45 aimlsec sshd[28266]: Disconnected from user aimlsec 192.168.3.1 port 54745
+Jul 18 22:25:45 aimlsec sshd[28196]: pam_unix(sshd:session): session closed for user aimlsec
+Jul 18 22:25:45 aimlsec systemd-logind[496]: Removed session 79.
+Jul 18 23:17:01 aimlsec CRON[2859]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 23:17:01 aimlsec CRON[2859]: pam_unix(cron:session): session closed for user root
+Jul 19 00:17:02 aimlsec CRON[4277]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 19 00:17:02 aimlsec CRON[4277]: pam_unix(cron:session): session closed for user root
+Jul 19 00:30:14 aimlsec pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jul 19 00:30:14 aimlsec pkexec[5117]: aimlsec: Executing command [USER=root] [TTY=unknown] [CWD=/home/aimlsec] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Jul 19 01:17:01 aimlsec CRON[6035]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 19 01:17:01 aimlsec CRON[6035]: pam_unix(cron:session): session closed for user root
+Jul 19 01:50:01 aimlsec CRON[6655]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 19 01:50:01 aimlsec CRON[6655]: pam_unix(cron:session): session closed for user root
+Jul 19 02:17:01 aimlsec CRON[7281]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 19 02:17:01 aimlsec CRON[7281]: pam_unix(cron:session): session closed for user root
+Jul 19 03:17:01 aimlsec CRON[8445]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 19 03:17:01 aimlsec CRON[8445]: pam_unix(cron:session): session closed for user root
+Jul 19 04:17:01 aimlsec CRON[9598]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 19 04:17:01 aimlsec CRON[9598]: pam_unix(cron:session): session closed for user root
+Jul 19 05:17:01 aimlsec CRON[10774]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 19 05:17:01 aimlsec CRON[10774]: pam_unix(cron:session): session closed for user root
+Jul 19 06:17:01 aimlsec CRON[12156]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 19 06:17:01 aimlsec CRON[12156]: pam_unix(cron:session): session closed for user root
+Jul 19 06:23:54 aimlsec pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jul 19 06:23:54 aimlsec pkexec[12290]: aimlsec: Executing command [USER=root] [TTY=unknown] [CWD=/home/aimlsec] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Jul 19 06:25:01 aimlsec CRON[12363]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 19 06:25:01 aimlsec CRON[12363]: pam_unix(cron:session): session closed for user root
+Jul 19 06:42:11 aimlsec pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jul 19 06:42:11 aimlsec pkexec[14702]: aimlsec: Executing command [USER=root] [TTY=unknown] [CWD=/home/aimlsec] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Jul 19 07:17:01 aimlsec CRON[15318]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 19 07:17:01 aimlsec CRON[15318]: pam_unix(cron:session): session closed for user root
+Jul 19 07:30:01 aimlsec CRON[15601]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 19 07:30:01 aimlsec CRON[15601]: pam_unix(cron:session): session closed for user root
+Jul 19 08:17:01 aimlsec CRON[16443]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 19 08:17:01 aimlsec CRON[16443]: pam_unix(cron:session): session closed for user root
+Jul 19 08:28:24 aimlsec sshd[16607]: Accepted password for aimlsec from 192.168.3.1 port 57350 ssh2
+Jul 19 08:28:24 aimlsec sshd[16607]: pam_unix(sshd:session): session opened for user aimlsec by (uid=0)
+Jul 19 08:28:24 aimlsec systemd-logind[496]: New session 95 of user aimlsec.
+Jul 19 09:17:02 aimlsec CRON[17899]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 19 09:17:02 aimlsec CRON[17899]: pam_unix(cron:session): session closed for user root
+Jul 19 10:17:02 aimlsec CRON[19177]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 19 10:17:02 aimlsec CRON[19177]: pam_unix(cron:session): session closed for user root
+Jul 19 11:17:01 aimlsec CRON[20277]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 19 11:17:01 aimlsec CRON[20277]: pam_unix(cron:session): session closed for user root
+Jul 19 12:17:01 aimlsec CRON[21521]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 19 12:17:01 aimlsec CRON[21521]: pam_unix(cron:session): session closed for user root
+Jul 19 12:32:07 aimlsec sudo:  aimlsec : TTY=pts/6 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/bin/ps aux
+Jul 19 12:32:07 aimlsec sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 19 12:32:07 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 19 12:32:15 aimlsec sudo:  aimlsec : TTY=pts/6 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/bin/kill 21794
+Jul 19 12:32:15 aimlsec sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 19 12:32:15 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 19 12:32:17 aimlsec sudo:  aimlsec : TTY=pts/6 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/bin/kill 21798
+Jul 19 12:32:17 aimlsec sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 19 12:32:17 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 19 12:32:20 aimlsec sudo:  aimlsec : TTY=pts/6 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/bin/kill 21799
+Jul 19 12:32:20 aimlsec sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 19 12:32:20 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 19 12:32:23 aimlsec sudo:  aimlsec : TTY=pts/6 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/bin/kill 21800
+Jul 19 12:32:23 aimlsec sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 19 12:32:23 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 19 12:32:27 aimlsec sudo:  aimlsec : TTY=pts/6 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/bin/kill 21801
+Jul 19 12:32:27 aimlsec sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 19 12:32:27 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 19 12:32:31 aimlsec sudo:  aimlsec : TTY=pts/6 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/bin/ps aux
+Jul 19 12:32:31 aimlsec sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 19 12:32:31 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 19 12:32:33 aimlsec sudo:  aimlsec : TTY=pts/6 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/bin/ps aux
+Jul 19 12:32:33 aimlsec sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 19 12:32:33 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 19 12:32:39 aimlsec sudo:  aimlsec : TTY=pts/6 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/bin/kill -9 21800
+Jul 19 12:32:39 aimlsec sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 19 12:32:39 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 19 12:32:42 aimlsec sudo:  aimlsec : TTY=pts/6 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/bin/kill -9 21801
+Jul 19 12:32:42 aimlsec sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 19 12:32:42 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 19 12:32:47 aimlsec sudo:  aimlsec : TTY=pts/6 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/bin/kill -9 21798
+Jul 19 12:32:47 aimlsec sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 19 12:32:47 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 19 12:32:49 aimlsec sudo:  aimlsec : TTY=pts/6 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/bin/kill -9 21799
+Jul 19 12:32:49 aimlsec sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 19 12:32:49 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 19 12:32:53 aimlsec sudo:  aimlsec : TTY=pts/6 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/bin/ps aux
+Jul 19 12:32:53 aimlsec sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 19 12:32:53 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 19 12:33:04 aimlsec sudo:  aimlsec : TTY=pts/6 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/bin/kill -9 21794
+Jul 19 12:33:04 aimlsec sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 19 12:33:04 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 19 12:33:38 aimlsec sudo:  aimlsec : TTY=pts/6 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/usr/sbin/tcpdump -i enp0s3 -w enp0s3-tcpdump-friday.pcap
+Jul 19 12:33:38 aimlsec sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 19 12:36:58 aimlsec gdm-password]: gkr-pam: unlocked login keyring
+Jul 19 13:17:01 aimlsec CRON[23212]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 19 13:17:01 aimlsec CRON[23212]: pam_unix(cron:session): session closed for user root
+Jul 19 14:17:01 aimlsec CRON[24410]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 19 14:17:01 aimlsec CRON[24410]: pam_unix(cron:session): session closed for user root
+Jul 19 14:18:17 aimlsec gdm-password]: gkr-pam: unlocked login keyring
+Jul 19 15:16:27 aimlsec sudo:  aimlsec : TTY=pts/6 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/usr/bin/nmap -sS 206.207.50.50
+Jul 19 15:16:27 aimlsec sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 19 15:17:01 aimlsec CRON[25555]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 19 15:17:01 aimlsec CRON[25555]: pam_unix(cron:session): session closed for user root
+Jul 19 15:18:08 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 19 15:19:11 aimlsec sudo:  aimlsec : TTY=pts/6 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/usr/bin/apt-get install vsftpd
+Jul 19 15:19:11 aimlsec sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 19 15:19:29 aimlsec groupadd[25687]: group added to /etc/group: name=ftp, GID=128
+Jul 19 15:19:29 aimlsec groupadd[25687]: group added to /etc/gshadow: name=ftp
+Jul 19 15:19:29 aimlsec groupadd[25687]: new group: name=ftp, GID=128
+Jul 19 15:19:29 aimlsec useradd[25691]: new user: name=ftp, UID=124, GID=128, home=/srv/ftp, shell=/usr/sbin/nologin
+Jul 19 15:19:29 aimlsec usermod[25697]: change user 'ftp' password
+Jul 19 15:19:29 aimlsec chage[25702]: changed password expiry for ftp
+Jul 19 15:19:29 aimlsec chfn[25705]: changed user 'ftp' information
+Jul 19 15:26:32 aimlsec sshd[26352]: Accepted password for aimlsec from 192.168.3.1 port 59048 ssh2
+Jul 19 15:26:32 aimlsec systemd-logind[496]: New session 103 of user aimlsec.
+Jul 19 15:26:32 aimlsec sshd[26352]: pam_unix(sshd:session): session opened for user aimlsec by (uid=0)
+Jul 19 15:28:36 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 19 15:29:59 aimlsec pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jul 19 15:29:59 aimlsec pkexec[26633]: aimlsec: Executing command [USER=root] [TTY=unknown] [CWD=/home/aimlsec] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Jul 19 15:47:31 aimlsec sudo:  aimlsec : TTY=pts/6 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/usr/bin/apt-get install wput
+Jul 19 15:47:31 aimlsec sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 19 15:56:02 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 19 15:56:24 aimlsec pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jul 19 15:56:24 aimlsec pkexec[28025]: aimlsec: Executing command [USER=root] [TTY=unknown] [CWD=/home/aimlsec] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Jul 19 16:17:01 aimlsec CRON[28442]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 19 16:17:01 aimlsec CRON[28442]: pam_unix(cron:session): session closed for user root
+Jul 19 17:17:01 aimlsec CRON[29572]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 19 17:17:01 aimlsec CRON[29572]: pam_unix(cron:session): session closed for user root
+Jul 19 18:17:01 aimlsec CRON[30813]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 19 18:17:01 aimlsec CRON[30813]: pam_unix(cron:session): session closed for user root
+Jul 19 18:56:57 aimlsec gdm-password]: gkr-pam: unlocked login keyring
+Jul 19 19:09:18 aimlsec gdm-password]: gkr-pam: unlocked login keyring
+Jul 19 19:17:01 aimlsec CRON[32158]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 19 19:17:01 aimlsec CRON[32158]: pam_unix(cron:session): session closed for user root
+Jul 19 19:23:09 aimlsec gdm-password]: gkr-pam: unlocked login keyring
+Jul 19 19:46:42 aimlsec gdm-password]: gkr-pam: unlocked login keyring
+Jul 19 20:06:57 aimlsec gdm-password]: gkr-pam: unlocked login keyring
+Jul 19 20:12:40 aimlsec sudo:  aimlsec : TTY=pts/8 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/bin/bash
+Jul 19 20:12:40 aimlsec sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 19 20:14:20 aimlsec sudo:  aimlsec : TTY=pts/6 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/usr/bin/docker ps
+Jul 19 20:14:20 aimlsec sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 19 20:14:20 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 19 20:14:40 aimlsec sudo:  aimlsec : TTY=pts/6 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/usr/bin/docker exec -it 040e742efe2f /bin/bash
+Jul 19 20:14:40 aimlsec sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 19 20:17:01 aimlsec CRON[2522]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 19 20:17:01 aimlsec CRON[2522]: pam_unix(cron:session): session closed for user root
+Jul 19 20:17:02 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 19 20:35:20 aimlsec sudo:  aimlsec : TTY=pts/7 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/bin/bash
+Jul 19 20:35:20 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 19 20:35:37 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 19 21:17:01 aimlsec CRON[3787]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 19 21:17:01 aimlsec CRON[3787]: pam_unix(cron:session): session closed for user root
+Jul 19 21:25:36 aimlsec sshd[3993]: Invalid user invader from 172.17.0.3 port 39376
+Jul 19 21:25:39 aimlsec sshd[3993]: pam_unix(sshd:auth): check pass; user unknown
+Jul 19 21:25:39 aimlsec sshd[3993]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.17.0.3
+Jul 19 21:25:41 aimlsec sshd[3993]: Failed password for invalid user invader from 172.17.0.3 port 39376 ssh2
+Jul 19 21:25:45 aimlsec sshd[3993]: pam_unix(sshd:auth): check pass; user unknown
+Jul 19 21:25:47 aimlsec sshd[3993]: Failed password for invalid user invader from 172.17.0.3 port 39376 ssh2
+Jul 19 21:25:49 aimlsec sshd[3993]: pam_unix(sshd:auth): check pass; user unknown
+Jul 19 21:25:51 aimlsec sshd[3993]: Failed password for invalid user invader from 172.17.0.3 port 39376 ssh2
+Jul 19 21:25:51 aimlsec sshd[3993]: Connection closed by invalid user invader 172.17.0.3 port 39376 [preauth]
+Jul 19 21:25:51 aimlsec sshd[3993]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.17.0.3
+Jul 19 21:26:11 aimlsec sshd[3997]: Invalid user hacker from 172.17.0.3 port 39452
+Jul 19 21:26:14 aimlsec sshd[3997]: pam_unix(sshd:auth): check pass; user unknown
+Jul 19 21:26:14 aimlsec sshd[3997]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.17.0.3
+Jul 19 21:26:16 aimlsec sshd[3997]: Failed password for invalid user hacker from 172.17.0.3 port 39452 ssh2
+Jul 19 21:26:18 aimlsec sshd[3997]: pam_unix(sshd:auth): check pass; user unknown
+Jul 19 21:26:20 aimlsec sshd[3997]: Failed password for invalid user hacker from 172.17.0.3 port 39452 ssh2
+Jul 19 21:26:22 aimlsec sshd[3997]: pam_unix(sshd:auth): check pass; user unknown
+Jul 19 21:26:24 aimlsec sshd[3997]: Failed password for invalid user hacker from 172.17.0.3 port 39452 ssh2
+Jul 19 21:26:24 aimlsec sshd[3997]: Connection closed by invalid user hacker 172.17.0.3 port 39452 [preauth]
+Jul 19 21:26:24 aimlsec sshd[3997]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.17.0.3
+Jul 19 22:14:44 aimlsec sshd[5150]: Invalid user ubuntu from 192.168.3.1 port 33069
+Jul 19 22:14:47 aimlsec sshd[5150]: pam_unix(sshd:auth): check pass; user unknown
+Jul 19 22:14:47 aimlsec sshd[5150]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.3.1
+Jul 19 22:14:49 aimlsec sshd[5150]: Failed password for invalid user ubuntu from 192.168.3.1 port 33069 ssh2
+Jul 19 22:14:54 aimlsec sshd[5150]: Connection closed by invalid user ubuntu 192.168.3.1 port 33069 [preauth]
+Jul 19 22:15:05 aimlsec sshd[5153]: Accepted password for aimlsec from 192.168.3.1 port 33075 ssh2
+Jul 19 22:15:05 aimlsec sshd[5153]: pam_unix(sshd:session): session opened for user aimlsec by (uid=0)
+Jul 19 22:15:05 aimlsec systemd-logind[496]: New session 110 of user aimlsec.
+Jul 19 22:17:01 aimlsec CRON[5355]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 19 22:17:01 aimlsec CRON[5355]: pam_unix(cron:session): session closed for user root
+Jul 19 22:23:11 aimlsec sudo:  aimlsec : TTY=pts/9 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/usr/bin/docker ps
+Jul 19 22:23:11 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 19 22:23:11 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 19 22:23:43 aimlsec sudo:  aimlsec : TTY=pts/9 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/usr/bin/docker exec -it 7e5dac8b73b9 /bin/bash
+Jul 19 22:23:43 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 19 22:23:50 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 19 22:24:04 aimlsec sudo:  aimlsec : TTY=pts/9 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/usr/bin/docker exec -it 040e742efe2f /bin/bash
+Jul 19 22:24:04 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 19 22:28:40 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 19 22:28:57 aimlsec sudo:  aimlsec : TTY=pts/9 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/bin/ps aux
+Jul 19 22:28:57 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 19 22:28:58 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 19 22:29:08 aimlsec sudo:  aimlsec : TTY=pts/9 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/bin/kill 21920
+Jul 19 22:29:08 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 19 22:29:08 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 19 22:29:08 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 19 22:29:10 aimlsec sudo:  aimlsec : TTY=pts/9 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/bin/kill 21921
+Jul 19 22:29:10 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 19 22:29:10 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 19 22:29:15 aimlsec sudo:  aimlsec : TTY=pts/9 ; PWD=/home/aimlsec ; USER=root ; COMMAND=/bin/ps aux
+Jul 19 22:29:15 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)
+Jul 19 22:29:15 aimlsec sudo: pam_unix(sudo:session): session closed for user root
+Jul 19 22:30:39 aimlsec sshd[5747]: Accepted password for aimlsec from 192.168.3.30 port 56374 ssh2
+Jul 19 22:30:39 aimlsec sshd[5747]: pam_unix(sshd:session): session opened for user aimlsec by (uid=0)
+Jul 19 22:30:39 aimlsec systemd-logind[496]: New session 112 of user aimlsec.
+Jul 19 22:30:48 aimlsec sshd[5811]: Received disconnect from 192.168.3.30 port 56374:11: disconnected by user
+Jul 19 22:30:48 aimlsec sshd[5811]: Disconnected from user aimlsec 192.168.3.30 port 56374
+Jul 19 22:30:48 aimlsec sshd[5747]: pam_unix(sshd:session): session closed for user aimlsec
+Jul 19 22:30:48 aimlsec systemd-logind[496]: Removed session 112.
+Jul 19 22:35:11 aimlsec sudo:  aimlsec : TTY=pts/9 ; PWD=/home/aimlsec/apt ; USER=root ; COMMAND=/bin/cp -r /var/log log-public-tue-friday
+Jul 19 22:35:11 aimlsec sudo: pam_unix(sudo:session): session opened for user root by aimlsec(uid=0)

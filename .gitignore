@@ -1,0 +1,20 @@
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Local
+*.pyc
+.DS_Store
+*checkpoint*
+
+# output artifact
+example/model/*
+example/openstack_result/*
+train
+test_normal
+test_abnormal
+*.pkl
+*.pth
